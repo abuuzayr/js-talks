@@ -30,7 +30,7 @@ Ideally also I would like to allow contribution from other developers in sourcin
 
 ## Support
 
-Podcast hosting costs money and I do not earn anything from it. If you would like to support this project, you can buy me a coffee! :smiley:
+Podcast hosting costs money and I do not earn anything from it. If you would like to support this project, you can [buy me a coffee](https://www.buymeacoffee.com/iB2dbMt)! :smiley:
 
 ## Videos
 
