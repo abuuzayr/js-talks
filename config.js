@@ -1,43 +1,42 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://js-talks.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'JavaScript Talks',
+  subtitle: 'JavaScript Talks / Conferences as Podcasts',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
-  useKatex: false,
+  postsPerPage: 10,
+  googleAnalyticsId: '',
   menu: [
     {
-      label: 'Articles',
+      label: 'Talks',
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'About this podcast',
+      path: 'https://git.io/JvIZD'
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
+      path: 'mailto:abu.uzayr@builtforfifty.com'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'JavaScript Talks ',
+    photo: '/js-logo.png',
+    bio: 'JavaScript Talks / Conferences as Podcasts',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: 'abuuzayr/js-talks',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
