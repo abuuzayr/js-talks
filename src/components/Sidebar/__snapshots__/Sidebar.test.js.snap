@@ -102,6 +102,8 @@ exports[`Sidebar renders correctly 1`] = `
               />
             </svg>
           </a>
+           
+          email
         </li>
         <li
           className="contacts__list-item"
@@ -124,6 +126,8 @@ exports[`Sidebar renders correctly 1`] = `
               />
             </svg>
           </a>
+           
+          telegram
         </li>
         <li
           className="contacts__list-item"
@@ -146,6 +150,8 @@ exports[`Sidebar renders correctly 1`] = `
               />
             </svg>
           </a>
+           
+          twitter
         </li>
         <li
           className="contacts__list-item"
@@ -168,6 +174,8 @@ exports[`Sidebar renders correctly 1`] = `
               />
             </svg>
           </a>
+           
+          github
         </li>
         <li
           className="contacts__list-item"
@@ -190,6 +198,8 @@ exports[`Sidebar renders correctly 1`] = `
               />
             </svg>
           </a>
+           
+          rss
         </li>
         <li
           className="contacts__list-item"
@@ -212,6 +222,8 @@ exports[`Sidebar renders correctly 1`] = `
               />
             </svg>
           </a>
+           
+          vkontakte
         </li>
       </ul>
     </div>
