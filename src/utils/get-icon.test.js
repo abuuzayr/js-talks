@@ -18,4 +18,8 @@ test('getIcon', () => {
   expect(getIcon('codepen')).toEqual(ICONS.CODEPEN);
   expect(getIcon('youtube')).toEqual(ICONS.YOUTUBE);
   expect(getIcon('soundcloud')).toEqual(ICONS.SOUNDCLOUD);
+  expect(getIcon('overcast')).toEqual(ICONS.OVERCAST);
+  expect(getIcon('itunes')).toEqual(ICONS.ITUNES);
+  expect(getIcon('google')).toEqual(ICONS.GOOGLE);
+  expect(getIcon('spotify')).toEqual(ICONS.SPOTIFY);
 });
