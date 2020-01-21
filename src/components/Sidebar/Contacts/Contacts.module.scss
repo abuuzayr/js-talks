@@ -1,0 +1,35 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.contacts {
+  @include margin-bottom(1);
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 10px -3px;
+    width: 140px;
+
+    &-item {
+      padding: 0;
+      margin: 16px 0;
+      &-link {
+        color: $color-base;
+        vertical-align: middle;
+        padding: 5px 3px;
+        border: 1px solid $color-gray-bg;
+        border-radius: 50%;
+        margin-right: 5px;
+  
+        &:hover,
+        &:focus {
+          color: $color-primary;
+        }
+
+      }
+
+    }
+
+  }
+
+}
