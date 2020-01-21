@@ -27,6 +27,10 @@ const useSiteMetadata = () => {
                 codepen
                 youtube
                 soundcloud
+                spotify
+                google
+                itunes
+                overcast
               }
             }
             menu {

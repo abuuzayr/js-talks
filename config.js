@@ -43,6 +43,10 @@ module.exports = {
       codepen: '',
       youtube: '',
       soundcloud: '',
+      overcast: 'js-talks',
+      itunes: 'js-talks',
+      google: 'js-talks',
+      spotify: 'js-talks',
     }
   }
 };
