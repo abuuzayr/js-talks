@@ -1,9 +1,6 @@
 'use strict';
 
-const React = require('react');
-const siteConfig = require('../config.js');
-
-const onRenderBody = ({ setHeadComponents }) => {
+const onRenderBody = () => {
 };
 
 module.exports = onRenderBody;

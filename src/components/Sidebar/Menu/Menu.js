@@ -16,21 +16,21 @@ const Menu = ({ menu }: Props) => (
       {menu.map((item) => (
         <li className={styles['menu__list-item']} key={item.path}>
           {
-            item.path.match(/^(http|mailto)/) ?
-            <a 
-              href={item.path}
-              target="_blank"
-              className={styles['menu__list-item-link']}
-            >
-              {item.label}
-            </a>
-            : <Link
-                to={item.path}
-                className={styles['menu__list-item-link']}
-                activeClassName={styles['menu__list-item-link--active']}
-              >
-                {item.label}
-              </Link>
+            item.path.match(/^(http|mailto)/)
+              ? <a
+                  href={item.path}
+                  target="_blank"
+                  className={styles['menu__list-item-link']}
+                >
+                  {item.label}
+                </a>
+              : <Link
+                  to={item.path}
+                  className={styles['menu__list-item-link']}
+                  activeClassName={styles['menu__list-item-link--active']}
+                >
+                  {item.label}
+                </Link>
           }
         </li>
       ))}
