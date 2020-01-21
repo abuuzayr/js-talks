@@ -12,14 +12,14 @@
 
     &-item {
       padding: 0;
-      margin: 4px;
+      margin: 16px 0;
       &-link {
         color: $color-base;
         vertical-align: middle;
-        padding: 7px;
-        line-height: $button-height;
+        padding: 5px 3px;
         border: 1px solid $color-gray-bg;
         border-radius: 50%;
+        margin-right: 5px;
   
         &:hover,
         &:focus {
