@@ -22,7 +22,7 @@ const Contacts = ({ contacts }: Props) => (
             target="_blank"
           >
             <Icon name={name} icon={getIcon(name)} />
-          </a>
+          </a> {name}
         </li>
       )))}
     </ul>
