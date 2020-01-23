@@ -4,6 +4,10 @@
 </h1>
 
 <p align="center">
+    <a href="https://app.netlify.com/sites/js-talks/deploys" rel="nofollow" class="rich-diff-level-one"><img src="https://api.netlify.com/api/v1/badges/d9887467-e9eb-4aa5-90d6-91127f0ac514/deploy-status" alt="Netlify Status" style="max-width:100%;"></a>
+</p>
+
+<p align="center">
     In the spirit of an accessible, open web, let's make JavaScript conference talks reach more people via podcasts. 
 </p>
 
