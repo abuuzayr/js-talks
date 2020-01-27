@@ -5,6 +5,7 @@
 
 <p align="center">
     <a href="https://app.netlify.com/sites/js-talks/deploys" rel="nofollow" class="rich-diff-level-one"><img src="https://api.netlify.com/api/v1/badges/d9887467-e9eb-4aa5-90d6-91127f0ac514/deploy-status" alt="Netlify Status" style="max-width:100%;"></a>
+    <a href="https://js-talks.netlify.com/" rel="nofollow" class="rich-diff-level-one"><img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PWA Shields" style="max-width:100%;"></a>
 </p>
 
 <p align="center">
