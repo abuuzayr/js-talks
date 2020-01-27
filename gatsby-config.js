@@ -62,11 +62,11 @@ module.exports = {
           copyright: '&#xA9;2020',
           language: 'en-us',
           categories: [
-            "javascript",
-            "js",
-            "conference",
-            "talks",
-            "learn",
+            'javascript',
+            'js',
+            'conference',
+            'talks',
+            'learn',
           ],
           custom_namespaces: {
             itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
