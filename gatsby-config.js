@@ -50,6 +50,56 @@ module.exports = {
             }
           }
         `,
+        setup: () => ({
+          title: siteConfig.title,
+          description: siteConfig.subtitle,
+          generator: 'Gatsby',
+          feed_url: `${siteConfig.url}/rss.xml`,
+          site_url: siteConfig.url,
+          image_url: siteConfig.url + siteConfig.author.photo,
+          managingEditor: `${siteConfig.author.email} (Muhammad Fawwaz)`,
+          webMaster: `${siteConfig.author.email} (Muhammad Fawwaz)`,
+          copyright: '&#xA9;2020',
+          language: 'en-us',
+          categories: [
+            'javascript',
+            'js',
+            'conference',
+            'talks',
+            'learn',
+          ],
+          custom_namespaces: {
+            itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+          },
+          custom_elements: [
+            { 'itunes:subtitle': siteConfig.subtitle },
+            { 'itunes:summary': siteConfig.subtitle },
+            {
+              'itunes:owner': [
+                { 'itunes:name': 'JS Talks' },
+                { 'itunes:email': 'abu.uzayr@builtforfifty.com' }
+              ]
+            },
+            {
+              'itunes:image': {
+                _attr: {
+                  href: siteConfig.url + siteConfig.author.photo
+                }
+              }
+            },
+            {
+              'itunes:category': [
+                {
+                  _attr: {
+                    text: 'Technology'
+                  }
+                },
+              ]
+            },
+            { 'itunes:author': 'JS Talks' },
+            { 'itunes:explicit': 'no' },
+          ],
+        }),
         feeds: [{
           serialize: ({ query: { site, allMarkdownRemark } }) => (
             allMarkdownRemark.edges.map((edge) => ({
@@ -58,7 +108,19 @@ module.exports = {
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              custom_elements: [{ 'content:encoded': edge.node.html }]
+              enclosure: { url: edge.node.frontmatter.podcastURL, type: 'audio/mpeg', length: 1 },
+              custom_elements: [
+                { 'itunes:author': edge.node.frontmatter.podcastSpeaker },
+                { 'itunes:subtitle': edge.node.frontmatter.description },
+                {
+                  'itunes:image': {
+                    _attr: {
+                      href: edge.node.frontmatter.socialImage
+                    }
+                  }
+                },
+                { 'itunes:duration': edge.node.frontmatter.podcastDuration }
+              ]
             }))
           ),
           query: `
@@ -80,6 +142,10 @@ module.exports = {
                         template
                         draft
                         description
+                        socialImage
+                        podcastURL
+                        podcastDuration
+                        podcastSpeaker
                       }
                     }
                   }

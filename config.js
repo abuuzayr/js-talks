@@ -24,9 +24,11 @@ module.exports = {
     }
   ],
   author: {
-    name: 'JavaScript Talks ',
+    name: 'JavaScript Talks',
     photo: '/js-logo.png',
     bio: 'JavaScript Talks / Conferences as Podcasts',
+    email: 'abu.uzayr@builtforfifty.com',
+    webmaster: '@abuuzayr',
     contacts: {
       email: '',
       facebook: '',
