@@ -152,7 +152,8 @@ module.exports = {
                 }
               }
             `,
-          output: '/rss.xml'
+          output: '/rss.xml',
+          title: siteConfig.title
         }]
       }
     },
