@@ -108,9 +108,9 @@ module.exports = {
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              enclosure: { 
-                url: edge.node.frontmatter.podcastURL, 
-                type: 'audio/mpeg', 
+              enclosure: {
+                url: edge.node.frontmatter.podcastURL,
+                type: 'audio/mpeg',
                 size: edge.node.frontmatter.podcastSize
               },
               custom_elements: [
