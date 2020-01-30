@@ -17,7 +17,7 @@ podcastSpeaker: 'C J Silverio'
 ---
 
 Original post, video and transcript on the official [JS Conf EU 2019 website](https://2019.jsconf.eu/c-j-silverio/the-economics-of-open-source.html).
-
+<hr/>
 <div style="text-align: center">
 	<audio controls="controls">
 		<source type="audio/mp3" src="https://builtforfifty.com/jstalks/The%20economics%20of%20open%20source%20by%20C%20J%20Silverio%20JSConf%20EU%202019.mp3"></source>
