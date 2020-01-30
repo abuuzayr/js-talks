@@ -112,6 +112,7 @@ module.exports = {
               custom_elements: [
                 { 'itunes:title': edge.node.frontmatter.title },
                 { 'itunes:author': edge.node.frontmatter.podcastSpeaker },
+                { 'itunes:summary': edge.node.frontmatter.description },
                 { 'itunes:subtitle': edge.node.frontmatter.description },
                 {
                   'itunes:image': {
