@@ -121,7 +121,8 @@ module.exports = {
                     }
                   }
                 },
-                { 'itunes:duration': edge.node.frontmatter.podcastDuration }
+                { 'itunes:duration': edge.node.frontmatter.podcastDuration },
+                { 'content:encoded': edge.node.html.split('<hr/>')[0] }
               ]
             }))
           ),
