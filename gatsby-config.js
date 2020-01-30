@@ -114,7 +114,9 @@ module.exports = {
                 size: edge.node.frontmatter.podcastSize
               },
               custom_elements: [
+                { 'itunes:title': edge.node.frontmatter.title },
                 { 'itunes:author': edge.node.frontmatter.podcastSpeaker },
+                { 'itunes:summary': edge.node.frontmatter.description },
                 { 'itunes:subtitle': edge.node.frontmatter.description },
                 {
                   'itunes:image': {
@@ -123,7 +125,8 @@ module.exports = {
                     }
                   }
                 },
-                { 'itunes:duration': edge.node.frontmatter.podcastDuration }
+                { 'itunes:duration': edge.node.frontmatter.podcastDuration },
+                { 'content:encoded': edge.node.html.split('<hr/>')[0] }
               ]
             }))
           ),
