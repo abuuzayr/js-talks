@@ -108,7 +108,11 @@ module.exports = {
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              enclosure: { url: edge.node.frontmatter.podcastURL, type: 'audio/mpeg', length: 1 },
+              enclosure: { 
+                url: edge.node.frontmatter.podcastURL, 
+                type: 'audio/mpeg', 
+                size: edge.node.frontmatter.podcastSize
+              },
               custom_elements: [
                 { 'itunes:author': edge.node.frontmatter.podcastSpeaker },
                 { 'itunes:subtitle': edge.node.frontmatter.description },
@@ -146,6 +150,7 @@ module.exports = {
                         podcastURL
                         podcastDuration
                         podcastSpeaker
+                        podcastSize
                       }
                     }
                   }
