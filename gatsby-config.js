@@ -111,6 +111,7 @@ module.exports = {
               enclosure: { url: edge.node.frontmatter.podcastURL, type: 'audio/mpeg', length: 1 },
               custom_elements: [
                 { 'itunes:author': edge.node.frontmatter.podcastSpeaker },
+                { 'itunes:summary': edge.node.frontmatter.description },
                 { 'itunes:subtitle': edge.node.frontmatter.description },
                 {
                   'itunes:image': {
