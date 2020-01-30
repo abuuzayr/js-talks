@@ -110,6 +110,7 @@ module.exports = {
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
               enclosure: { url: edge.node.frontmatter.podcastURL, type: 'audio/mpeg', length: 1 },
               custom_elements: [
+                { 'itunes:title': edge.node.frontmatter.title },
                 { 'itunes:author': edge.node.frontmatter.podcastSpeaker },
                 { 'itunes:subtitle': edge.node.frontmatter.description },
                 {
