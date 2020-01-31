@@ -108,7 +108,11 @@ module.exports = {
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
-              enclosure: { url: edge.node.frontmatter.podcastURL, type: 'audio/mpeg', length: 1 },
+              enclosure: {
+                url: edge.node.frontmatter.podcastURL,
+                type: 'audio/mpeg',
+                size: edge.node.frontmatter.podcastSize
+              },
               custom_elements: [
                 { 'itunes:title': edge.node.frontmatter.title },
                 { 'itunes:author': edge.node.frontmatter.podcastSpeaker },
@@ -122,7 +126,7 @@ module.exports = {
                   }
                 },
                 { 'itunes:duration': edge.node.frontmatter.podcastDuration },
-                { 'content:encoded': edge.node.html.split('<hr/>')[0] }
+                { 'content:encoded': edge.node.html.split('<!-- End of podcast preview -->')[0] }
               ]
             }))
           ),
@@ -149,6 +153,7 @@ module.exports = {
                         podcastURL
                         podcastDuration
                         podcastSpeaker
+                        podcastSize
                       }
                     }
                   }
