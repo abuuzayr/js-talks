@@ -19,7 +19,7 @@ podcastSize: 54309962
 
 Original post, video and transcript on the official [JS Conf EU 2019 website](https://2019.jsconf.eu/c-j-silverio/the-economics-of-open-source.html).
 
-<hr/>
+<!-- End of podcast preview -->
 
 <div style="text-align: center">
 	<audio controls="controls">

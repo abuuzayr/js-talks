@@ -126,7 +126,7 @@ module.exports = {
                   }
                 },
                 { 'itunes:duration': edge.node.frontmatter.podcastDuration },
-                { 'content:encoded': edge.node.html.split('<hr/>')[0] }
+                { 'content:encoded': edge.node.html.split('<!-- End of podcast preview -->')[0] }
               ]
             }))
           ),
