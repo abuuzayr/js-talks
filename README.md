@@ -60,7 +60,7 @@ I do not earn anything from this project. If you would like to support this proj
 
 ### JSConf EU 2019
 
-| Title | Speaker | Video URL | Description | Added? |
+| Title | Speaker | Video | Description | Added? |
 | --- | --- | --- | --- | --- |
 | The economics of open source | C J Silverio | [:arrow_forward:](https://youtu.be/MO8hZlgK5zc) | The JS package commons is in the hands of a for-profit entity. We trust npm with our shared code, but we have no way to hold npm accountable for its behavior. A trust-based system cannot function without accountability, but somebody still has to pay for the servers. How did we get here, and what should JavaScript do now? | :white_check_mark: |
 | HTTP headers for the responsible developer | Stefan Judis | [:arrow_forward:](https://youtu.be/Mjqf2kkFLy8) | To build inclusive websites, developers have to consider accessibility, performance and user flows. Crafted source code forms the foundation for thought-through UIs, but it’s not only about the code. Let’s have a look at HTTP, and to be specific, its headers that can have a direct impact on user experience. | :white_check_mark: |
