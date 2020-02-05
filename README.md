@@ -42,9 +42,19 @@ Right now the work to get these podcasts to the various distribution platforms i
 
 Ideally also I would like to allow contribution from other developers in sourcing the video URLs and adding it, so in addition to the above, perhaps we would need to have some JSON (?) representation of the videos (URL, title, etc.), which when updated will trigger a pipeline for the above and update the podcasts automatically. 
 
+## Stack
+
+This is the current stack:
+
+- :rocket: [**Gatsby**](https://www.gatsbyjs.org/) for static site development, framework, and RSS feed generation
+- [**Gatsby Starter Lumen**](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) for the terrific starter theme for Gatsby 
+- [**Netlify**](https://www.netlify.com/) for hosting the JS Talks website (they have a generous free tier)
+- [**Google Cloud Platform**](https://cloud.google.com/) for hosting the audio files (5GB free storage if hosted in selected regions!)
+- Apple Podcasts, Overcast, Spotify Podcasts, Google Music Podcasts for distributing the podcasts
+
 ## Support
 
-Podcast hosting costs money and I do not earn anything from it. If you would like to support this project, you can [buy me a coffee](https://www.buymeacoffee.com/iB2dbMt)! :smiley:
+I do not earn anything from this project. If you would like to support this project, you can [buy me a coffee](https://www.buymeacoffee.com/iB2dbMt) or contribute! :smiley:
 
 ## Videos
 
@@ -53,3 +63,4 @@ Podcast hosting costs money and I do not earn anything from it. If you would lik
 | Title | Speaker | Video URL | Description | Added? |
 | --- | --- | --- | --- | --- |
 | The economics of open source | C J Silverio | https://www.youtube.com/watch?v=MO8hZlgK5zc | The JS package commons is in the hands of a for-profit entity. We trust npm with our shared code, but we have no way to hold npm accountable for its behavior. A trust-based system cannot function without accountability, but somebody still has to pay for the servers. How did we get here, and what should JavaScript do now? | :white_check_mark: |
+| HTTP headers for the responsible developer | Stefan Judis | https://www.youtube.com/watch?v=Mjqf2kkFLy8 | To build inclusive websites, developers have to consider accessibility, performance and user flows. Crafted source code forms the foundation for thought-through UIs, but it’s not only about the code. Let’s have a look at HTTP, and to be specific, its headers that can have a direct impact on user experience. | :white_check_mark: |
