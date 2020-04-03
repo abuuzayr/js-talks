@@ -49,7 +49,7 @@ This is the current stack:
 - :rocket: [**Gatsby**](https://www.gatsbyjs.org/) for static site development, framework, and RSS feed generation
 - [**Gatsby Starter Lumen**](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) for the terrific starter theme for Gatsby 
 - [**Netlify**](https://www.netlify.com/) for hosting the JS Talks website (they have a generous free tier)
-- [**Google Cloud Platform**](https://cloud.google.com/) for hosting the audio files (5GB free storage if hosted in selected regions!)
+- [**BackBlaze B2 Cloud Storage**](https://www.backblaze.com/b2/cloud-storage.html) for hosting the audio files (10GB free storage, and 1GB free downloads every day, 80% cheaper than AWS S3!)
 - Apple Podcasts, Overcast, Spotify Podcasts, Google Music Podcasts for distributing the podcasts
 
 ## Support
