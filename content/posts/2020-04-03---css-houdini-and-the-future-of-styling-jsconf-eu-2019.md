@@ -1,6 +1,6 @@
 ---
 title: "CSS Houdini & The Future of Styling | JSConf EU 2019"
-date: "2020-03-26T00:00:00.000Z"
+date: "2020-04-03T00:00:00.000Z"
 template: "post"
 draft: false
 slug: "css-houdini-and-the-future-of-styling-jsconf-eu-2019"
