@@ -45,10 +45,10 @@ module.exports = {
       codepen: '',
       youtube: '',
       soundcloud: '',
-      overcast: 'js-talks',
-      itunes: 'js-talks',
-      google: 'js-talks',
-      spotify: 'js-talks',
+      overcast: 'itunes1497098326/javascript-talks',
+      itunes: 'sg/podcast/javascript-talks/id1497098326',
+      google: '?feed=aHR0cHM6Ly9qcy10YWxrcy5uZXRsaWZ5LmNvbS9yc3MueG1s',
+      spotify: 'show/0R46Q4lsN14bWIAIZm07D1',
     }
   }
 };
