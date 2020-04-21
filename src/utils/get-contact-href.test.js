@@ -17,8 +17,8 @@ test('getContactHref', () => {
   expect(getContactHref('codepen', '#')).toBe('https://www.codepen.io/#');
   expect(getContactHref('youtube', '#')).toBe('https://www.youtube.com/channel/#');
   expect(getContactHref('soundcloud', '#')).toBe('https://soundcloud.com/#');
-  expect(getContactHref('overcast', '#')).toBe('https://overcast.com/#');
-  expect(getContactHref('itunes', '#')).toBe('https://itunes.com/#');
-  expect(getContactHref('google', '#')).toBe('https://google.com/#');
-  expect(getContactHref('spotify', '#')).toBe('https://spotify.com/#');
+  expect(getContactHref('overcast', '#')).toBe('https://overcast.fm/#');
+  expect(getContactHref('itunes', '#')).toBe('https://podcasts.apple.com/#');
+  expect(getContactHref('google', '#')).toBe('https://podcasts.google.com/#');
+  expect(getContactHref('spotify', '#')).toBe('https://open.spotify.com/#');
 });
