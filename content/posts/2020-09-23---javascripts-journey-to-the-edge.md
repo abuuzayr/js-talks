@@ -20,7 +20,7 @@ podcastSpeaker: "Ashley Williams"
 podcastSize: 42305338
 ---
 
-Original post, video and transcript on the official [JS Conf EU 2019 website](https://2019.jsconf.eu/michael-mifsud/graphql-towards-a-universal-query-language.html).
+Original post, video and transcript on the official [JS Conf EU 2019 website](https://2019.jsconf.eu/ashley-williams/javascripts-journey-to-the-edge.html).
 
 <!-- End of podcast preview -->
 
