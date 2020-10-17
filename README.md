@@ -80,3 +80,4 @@ I do not earn anything from this project. If you would like to support this proj
 | GraphQL: Towards a universal query language | Michael Mifsud | [:arrow_forward:](https://youtu.be/Xi3sxygtDc4) | [:arrow_right:](https://js-talks.netlify.app/posts/graphql-towards-a-universal-query-language) | :white_check_mark: |
 | JavaScript, JavaScript…. Rocks You! | Vitalii Bobrov | [:arrow_forward:](https://youtu.be/_yt89v0S1MA) | [:arrow_right:](https://js-talks.netlify.app/posts/javascript-javascript-rocks-you) | :white_check_mark: |
 | JavaScript's Journey to the Edge | Ashley Williams | [:arrow_forward:](https://youtu.be/MBndZddVQdw) | [:arrow_right:](https://js-talks.netlify.app/posts/javascripts-journey-to-the-edge) | :white_check_mark: |
+| Yarn - 2019 and beyond | Maël Nison | [:arrow_forward:](https://youtu.be/XePfzVs852s) | [:arrow_right:](https://js-talks.netlify.app/posts/yarn-2019-and-beyond) | :white_check_mark: |
