@@ -82,4 +82,5 @@ I do not earn anything from this project. If you would like to support this proj
 | JavaScript's Journey to the Edge | Ashley Williams | [:arrow_forward:](https://youtu.be/MBndZddVQdw) | [:arrow_right:](https://js-talks.netlify.app/posts/javascripts-journey-to-the-edge) | :white_check_mark: |
 | javascript considered...useful | Jenn Schiffer | [:arrow_forward:](https://youtu.be/ylF7ZR-b7Rk) | [:arrow_right:](https://js-talks.netlify.app/posts/javascript-considereduseful) | :white_check_mark: |
 | Yarn - 2019 and beyond | Maël Nison | [:arrow_forward:](https://youtu.be/XePfzVs852s) | [:arrow_right:](https://js-talks.netlify.app/posts/yarn-2019-and-beyond) | :white_check_mark: |
+| Offline-first data: Getting Bigger | Kevin Doran | [:arrow_forward:](https://youtu.be/_deWuTbHb5I) | [:arrow_right:](https://js-talks.netlify.app/posts/offline-first-data-getting-bigger) | :white_check_mark: |
 | animations - learning from cartoons | Martin Sonnenholzer | [:arrow_forward:](https://youtu.be/Bpu_WQXONlM) | [:arrow_right:](https://js-talks.netlify.app/posts/animations-learning-from-cartoons) | :white_check_mark: |
