@@ -3,6 +3,7 @@
 name: Add new episode cron
 
 on: 
+  push:
   workflow_dispatch:
   schedule:
     # * is a special character in YAML so you have to quote this string
