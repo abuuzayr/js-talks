@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Add new episode cron
+
+on: push
+
+jobs:
+  echo-input:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/github-script@v3
+        with:
+          script: |
+            const script = require(`${process.env.GITHUB_WORKSPACE}/path/to/script.js`)
+            console.log(script({github, context}))
