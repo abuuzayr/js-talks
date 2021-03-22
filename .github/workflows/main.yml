@@ -17,4 +17,5 @@ jobs:
         with:
           script: |
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
-            console.log(script({github, context}))
+            const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
+            await script(${{ secrets.GITHUB_TOKEN }}, episodes)

@@ -1,8 +1,9 @@
-const job = (github) => {
-    console.log(github)
+const job = (token, episodes) => {
+    console.log(token)
+    console.log(episodes)
 }
 
-module.exports = ({github, context}) => {
-    job(github)
+module.exports = async (token, episodes) => {
+    job(token, episodes)
     return context.payload.client_payload.value
 }
