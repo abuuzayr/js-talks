@@ -4,7 +4,7 @@
         "speaker": "Stanimira Vlaeva",
         "yt_url": "https://youtu.be/wz7Znu6tqFw",
         "source": "https://2019.jsconf.eu/stanimira-vlaeva/embedding-v8-in-the-real-world.html",
-        "slug": "embedding-v8-in-the-real-world",
+        "slug": "embedding-v8-in-the-real-world-stanimira-vlaeva-jsconf-eu-2019",
         "event": "JS Conf 2019",
         "tags": [
             "Open source",
@@ -14,6 +14,7 @@
         ],
         "description": "V8 is the JavaScript engine powering Google Chrome, Node.js and NativeScript. NativeScript embeds V8 to process JavaScript and dynamically call Android APIs. This enables developers to write Android applications in JavaScript and directly access the underlying OS. Come to this session to learn what challenges the NativeScript team met embedding V8 in a mobile framework and how you can power any C++ based application with one of the most sophisticated JavaScript engines.",
         "img": "https://2019.jsconf.eu/immutable/05cf627ca32b7a46d65956e57f69d47b88e4e4ef/images/cms/stanimira-vlaeva-a37165e7-1000-square.jpg",
-        "posted_date": "2021-03-22"
+        "posting_date": "2021-03-22",
+        "b2_url": ""
     }
 ]
