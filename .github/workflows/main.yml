@@ -1,0 +1,20 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Add new episode cron
+
+on: 
+  workflow_dispatch:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * MON,THU'
+
+jobs:
+  echo-input:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/github-script@v3
+        with:
+          script: |
+            const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
+            console.log(script({github, context}))
