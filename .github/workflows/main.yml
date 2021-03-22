@@ -2,7 +2,10 @@
 
 name: Add new episode cron
 
-on: push
+on: 
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * MON,THU'
 
 jobs:
   echo-input:
@@ -12,5 +15,5 @@ jobs:
       - uses: actions/github-script@v3
         with:
           script: |
-            const script = require(`${process.env.GITHUB_WORKSPACE}/path/to/script.js`)
+            const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             console.log(script({github, context}))
