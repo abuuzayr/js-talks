@@ -1,5 +1,5 @@
-const fs = require('fs');
-const ytdl = require('ytdl-core');
+const fs = require('fs')
+const ytdl = require('ytdl-core')
 
 const job = async (token, episodes) => {
     // 2. check json for dates that are past and are not uploaded yet
@@ -7,7 +7,7 @@ const job = async (token, episodes) => {
     const episode = episodes.find(e => {
         return new Date(e.posting_date) < new Date() && !e.b2_url
     })
-    ytdl(episode.yt_url, {
+    await ytdl(episode.yt_url, {
         quality: 'highestaudio',
         filter: 'audioonly'
     }).pipe(fs.createWriteStream(`${episode.slug}.mp3`))
