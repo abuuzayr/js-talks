@@ -28,7 +28,7 @@ const job = async (token, episodes) => {
 
             const videoID = ytdl.getURLVideoID(episode.yt_url)
             const info = await ytdl.getInfo(videoID)
-            const { length, title } = info.player_response.videoDetails
+            const { lengthSeconds: length, title } = info.player_response.videoDetails
             console.log("length: ", length)
             console.log("title: ", title)
             const audioFormats = ytdl.filterFormats(info.formats, 'audioonly')
