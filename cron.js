@@ -14,6 +14,15 @@ const job = async (token, episodes) => {
     let stats = fs.statSync(`${episode.slug}.mp3`)
     let fileSizeInBytes = stats.size;
     console.log("fileSizeInBytes: ", fileSizeInBytes)
+
+    const videoID = ytdl.getURLVideoID(episode.yt_url)
+    console.log("videoID: ", videoID)
+    const info = await ytdl.getInfo(videoID)
+    console.log("info: ", info)
+    const audioFormats = ytdl.filterFormats(info.formats, 'audioonly')
+    console.log("audioFormats: ", audioFormats)
+    const format = ytdl.chooseFormat(audioFormats, { quality: 'highestaudio' })
+    console.log("format: ", format)
     // 4. download the audio from youtube
     // 5. upload the audio to b2
     // 6. update the json
