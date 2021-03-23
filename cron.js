@@ -12,7 +12,7 @@ const job = async (token, episodes) => {
         quality: 'highestaudio',
         filter: 'audioonly'
     })
-    ffmpeg(ytStream)
+    await ffmpeg(ytStream)
         .audioCodec('libmp3lame')
         .on('error', function (err) {
             console.log('An error occurred: ' + err.message);
