@@ -19,16 +19,9 @@ jobs:
           node-version: '14'
           check-latest: true
       - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2
-      - run: echo ${{ secrets.B2_APP_KEY }}
-      - run: echo ${{ secrets.B2_APP_KEY_ID }}
-      - run: echo $B2_APP_KEY_ID
-      - run: echo $B2_APP_KEY
-        env:
-          B2_APP_KEY_ID: ${{ secrets.B2_APP_KEY_ID }}
-          B2_APP_KEY: ${{ secrets.B2_APP_KEY }}
-      # - uses: actions/github-script@v3
-      #   with:
-      #     script: |
-      #       const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
-      #       const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
-      #       await script(`${{ secrets.GITHUB_TOKEN }}`, episodes, `${process.env.B2_APP_KEY}`, `${process.env.B2_APP_KEY_ID}`)
+      - uses: actions/github-script@v3
+        with:
+          script: |
+            const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
+            const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
+            await script(${{ secrets.GITHUB_TOKEN }}, episodes, ${{ secrets.B2_APP_KEY_ID }}, ${{ secrets.B2_APP_KEY_ID }})
