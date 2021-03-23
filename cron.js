@@ -26,5 +26,5 @@ const job = async (token, episodes) => {
 
 module.exports = async (token, episodes) => {
     await job(token, episodes)
-    return
+    return true
 }
