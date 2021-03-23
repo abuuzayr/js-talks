@@ -39,15 +39,13 @@ const job = async (token, episodes, b2AppKey, b2AppKeyId) => {
         applicationKey: b2AppKey,
     })
     const auth = await b2.authorize()
-    const authToken = auth.data.authorizationToken
     let uploadUrl = await b2.getUploadUrl({
         bucketId: auth.data.allowed.bucketId,
     })
-    uploadUrl = uploadUrl.data.uploadUrl
     try {
         await b2.uploadFile({
-            uploadUrl,
-            uploadAuthToken: authToken,
+            uploadUrl: uploadUrl.data.uploadUrl,
+            uploadAuthToken: uploadUrl.data.authorizationToken,
             fileName: `${episode.slug}.mp3`,
             data: Buffer.from(`${episode.slug}.mp3`)
         })
