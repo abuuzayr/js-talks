@@ -17,7 +17,7 @@ const job = async (token, episodes) => {
         .on('error', function (err) {
             console.log('An error occurred: ' + err.message);
         })
-        .on('end', function () {
+        .on('end', async () => {
             console.log('Processing finished !')
 
             let stats = fs.statSync(`${episode.slug}.mp3`)
