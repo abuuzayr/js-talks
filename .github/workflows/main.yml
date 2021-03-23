@@ -10,7 +10,7 @@ on:
     - cron:  '0 0 * * MON,THU'
 
 jobs:
-  echo-input:
+  run-script:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,5 +24,4 @@ jobs:
           script: |
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
-            console.log(episodes)
             await script(`${{ secrets.GITHUB_TOKEN }}`, episodes)

@@ -12,29 +12,29 @@ const job = async (token, episodes) => {
         quality: 'highestaudio',
         filter: 'audioonly'
     })
-    await ffmpeg(ytStream)
+    ffmpeg(ytStream)
         .audioCodec('libmp3lame')
         .on('error', function (err) {
             console.log('An error occurred: ' + err.message);
         })
         .on('end', function () {
-            console.log('Processing finished !');
+            console.log('Processing finished !')
+
+            let stats = fs.statSync(`${episode.slug}.mp3`)
+            let fileSizeInBytes = stats.size;
+            console.log("fileSizeInBytes: ", fileSizeInBytes)
+
+            const videoID = ytdl.getURLVideoID(episode.yt_url)
+            const info = await ytdl.getInfo(videoID)
+            const { length, title } = info.player_response.videoDetails
+            console.log("length: ", length)
+            console.log("title: ", title)
+            const audioFormats = ytdl.filterFormats(info.formats, 'audioonly')
+            const format = ytdl.chooseFormat(audioFormats, { quality: 'highestaudio' })
+            const fileSize = format.contentLength
+            console.log("fileSize: ", fileSize)
         })
         .save(`${episode.slug}.mp3`)
-        
-    let stats = fs.statSync(`${episode.slug}.mp3`)
-    let fileSizeInBytes = stats.size;
-    console.log("fileSizeInBytes: ", fileSizeInBytes)
-
-    const videoID = ytdl.getURLVideoID(episode.yt_url)
-    const info = await ytdl.getInfo(videoID)
-    const { length, title } = info.player_response.videoDetails
-    console.log("length: ", length)
-    console.log("title: ", title)
-    const audioFormats = ytdl.filterFormats(info.formats, 'audioonly')
-    const format = ytdl.chooseFormat(audioFormats, { quality: 'highestaudio' })
-    const fileSize = format.contentLength
-    console.log("fileSize: ", fileSize)
     // 4. download the audio from youtube
     // 5. upload the audio to b2
     // 6. update the json
