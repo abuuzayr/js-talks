@@ -5,7 +5,7 @@ const ffmpeg = require('fluent-ffmpeg')
 ffmpeg.setFfmpegPath(ffmpegPath)
 const B2 = require('backblaze-b2')
 
-const job = async (token, episodes, b2AppKey, b2AppKeyId) => {
+const job = async (token, episodes, b2AppKeyId, b2AppKey) => {
     // 2. check json for dates that are past and are not uploaded yet
     // 3. select an episode
     const episode = episodes.find(e => {
@@ -69,7 +69,7 @@ const job = async (token, episodes, b2AppKey, b2AppKeyId) => {
     // 10. trigger build
 }
 
-module.exports = async (token, episodes, b2AppKey, b2AppKeyId) => {
-    await job(token, episodes, b2AppKey, b2AppKeyId)
+module.exports = async (token, episodes, b2AppKeyId, b2AppKey) => {
+    await job(token, episodes, b2AppKeyId, b2AppKey)
     return true
 }
