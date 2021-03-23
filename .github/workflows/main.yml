@@ -22,7 +22,6 @@ jobs:
       - uses: actions/github-script@v3
         with:
           script: |
-            const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const b2AppKey = `${{ secrets.B2_APP_KEY }}`
             const b2AppKeyId = `${{ secrets.B2_APP_KEY_ID }}`
             console.log(b2AppKey)
