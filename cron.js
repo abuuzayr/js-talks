@@ -5,9 +5,9 @@ const ffmpeg = require('fluent-ffmpeg')
 ffmpeg.setFfmpegPath(ffmpegPath)
 const B2 = require('backblaze-b2')
 
-const job = async (token, episodes, github, context) => {
-    console.log(github)
-    console.log(context)
+const job = async (token, episodes, b2AppKeyId, b2AppKey) => {
+    console.log(b2AppKeyId)
+    console.log(b2AppKey)
     return
     // 2. check json for dates that are past and are not uploaded yet
     // 3. select an episode

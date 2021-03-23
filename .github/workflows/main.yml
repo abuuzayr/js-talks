@@ -14,15 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-          check-latest: true
-      - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2
+      # - uses: actions/setup-node@v2
+      #   with:
+      #     node-version: '14'
+      #     check-latest: true
+      # - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2
       - uses: actions/github-script@v3
         with:
           script: |
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
-            console.log(`${{ secrets.B2_APP_KEY }}`)
-            console.log(`${{ secrets.B2_APP_KEY_ID }}`)
-            console.log(`${{ secrets.GITHUB_TOKEN }}`)
+            const b2AppKey = `${{ secrets.B2_APP_KEY }}`)
+            const b2AppKeyId = `${{ secrets.B2_APP_KEY_ID }}`)
+            const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
+            await script(`${{ secrets.GITHUB_TOKEN }}`, episodes, b2AppKeyId, b2AppKey)
