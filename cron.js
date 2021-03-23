@@ -6,9 +6,6 @@ ffmpeg.setFfmpegPath(ffmpegPath)
 const B2 = require('backblaze-b2')
 
 const job = async (token, episodes, b2AppKey, b2AppKeyId) => {
-    console.log(b2AppKey)
-    console.log(b2AppKeyId)
-    return
     // 2. check json for dates that are past and are not uploaded yet
     // 3. select an episode
     const episode = episodes.find(e => {
