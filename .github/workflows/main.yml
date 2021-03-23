@@ -25,5 +25,6 @@ jobs:
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const b2AppKey = `${{ secrets.B2_APP_KEY }}`
             const b2AppKeyId = `${{ secrets.B2_APP_KEY_ID }}`
+            console.log(b2AppKey)
+            console.log(b2AppKeyId)
             const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
-            await script(`${{ secrets.GITHUB_TOKEN }}`, episodes, b2AppKeyId, b2AppKey)
