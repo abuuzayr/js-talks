@@ -1,6 +1,8 @@
 const fs = require('fs')
 const ytdl = require('ytdl-core')
-const ffmpeg = require('fluent-ffmpeg');
+const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path
+const ffmpeg = require('fluent-ffmpeg')
+ffmpeg.setFfmpegPath(ffmpegPath)
 
 const job = async (token, episodes) => {
     // 2. check json for dates that are past and are not uploaded yet
