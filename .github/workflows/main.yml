@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '14'
           check-latest: true
-      - run: npm install ytdl-core
+      - run: npm install ytdl-core fluent-ffmpeg
       - uses: actions/github-script@v3
         with:
           script: |
