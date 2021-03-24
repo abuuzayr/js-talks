@@ -40,6 +40,6 @@ jobs:
         uses: test-room-7/action-update-file@v1
         with:
             file-path: |
-                files/*.md
+                /files-to-push/*.md
             commit-msg: Add new episode from GitHub Action
             github-token: ${{ secrets.GITHUB_TOKEN }}

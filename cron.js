@@ -74,14 +74,15 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
   };
   // 7. create the post md file
   let output = render(template, episode);
+  fs.mkdirSync('/files-to-push')
   fs.writeFileSync(
-    `files/${episode.posting_date}---${episode.slug}.md`,
+    `/files-to-push/${episode.posting_date}---${episode.slug}.md`,
     output
   );
   // 8. update readme
-  fs.writeFileSync(`files/README.md`, readme);
+  fs.writeFileSync(`/files-to-push/README.md`, readme);
   fs.appendFileSync(
-    `files/README.md`,
+    `/files-to-push/README.md`,
     `\r\n| ${episode.title} | ${episode.speaker} | [:arrow_forward:](${episode.yt_url}) | [:arrow_right:](https://js-talks.netlify.app/posts/${episode.slug}) | :white_check_mark: |`
   );
 }
