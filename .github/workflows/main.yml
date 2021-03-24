@@ -47,7 +47,7 @@ jobs:
             fs.writeFileSync(`README.md`, newReadme);
             fs.writeFileSync(
               `episodes.json`,
-              JSON.stringify(episodes, null, 2)
+              JSON.stringify(newEpisodes, null, 2)
             );
       - name: Update resources
         uses: test-room-7/action-update-file@v1
