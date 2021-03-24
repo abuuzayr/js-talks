@@ -86,3 +86,5 @@ I do not earn anything from this project. If you would like to support this proj
 | animations - learning from cartoons | Martin Sonnenholzer | [:arrow_forward:](https://youtu.be/Bpu_WQXONlM) | [:arrow_right:](https://js-talks.netlify.app/posts/animations-learning-from-cartoons) | :white_check_mark: |
 | Block, unblock, block! : How ad blockers are being circumvented, and how they are fighting back. | Shwetank Dixit | [:arrow_forward:](https://youtu.be/Vk9bPDaZELQ) | [:arrow_right:](https://js-talks.netlify.app/posts/block-unblock-block-how-ad-blockers-are-being-circumvented-and-how-they-are-fighting-back) | :white_check_mark: |
 | TensorFlow.js: Bringing Machine Learning to the Web and Beyond | Nikhil Thorat | [:arrow_forward:](https://youtu.be/imzedQr2tTc) | [:arrow_right:](https://js-talks.netlify.app/posts/tensorflowjs-bringing-machine-learning-to-the-web-and-beyond) | :white_check_mark: |
+
+| Embedding V8 in the real world | Stanimira Vlaeva | [:arrow_forward:](https://youtu.be/wz7Znu6tqFw) | [:arrow_right:](https://js-talks.netlify.app/posts/embedding-v8-in-the-real-world-stanimira-vlaeva-jsconf-eu-2019) | :white_check_mark: |
