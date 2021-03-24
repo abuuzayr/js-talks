@@ -17,7 +17,7 @@ jobs:
           node-version: '14'
           check-latest: true
       - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2 mustache
-      - run: mkdir -m777 ~/files-to-push/
+      - run: mkdir -p -m777 ~/content/posts
       - uses: actions/github-script@v3
         with:
           script: |
