@@ -88,3 +88,4 @@ I do not earn anything from this project. If you would like to support this proj
 | TensorFlow.js: Bringing Machine Learning to the Web and Beyond | Nikhil Thorat | [:arrow_forward:](https://youtu.be/imzedQr2tTc) | [:arrow_right:](https://js-talks.netlify.app/posts/tensorflowjs-bringing-machine-learning-to-the-web-and-beyond) | :white_check_mark: |
 
 | Embedding V8 in the real world | Stanimira Vlaeva | [:arrow_forward:](https://youtu.be/wz7Znu6tqFw) | [:arrow_right:](https://js-talks.netlify.app/posts/embedding-v8-in-the-real-world-stanimira-vlaeva-jsconf-eu-2019) | :white_check_mark: |
+| Embedding V8 in the real world | Stanimira Vlaeva | [:arrow_forward:](https://youtu.be/wz7Znu6tqFw) | [:arrow_right:](https://js-talks.netlify.app/posts/embedding-v8-in-the-real-world-stanimira-vlaeva-jsconf-eu-2019) | :white_check_mark: |
