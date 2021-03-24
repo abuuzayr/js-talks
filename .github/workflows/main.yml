@@ -5,16 +5,56 @@ name: Add new episode cron
 on: 
   workflow_dispatch:
   schedule:
-    # * is a special character in YAML so you have to quote this string
     - cron:  '0 0 * * MON,THU'
 
 jobs:
-  echo-input:
+  run-script:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          check-latest: true
+      - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2 mustache
+      - run: mkdir -m777 ~/files-to-push/
       - uses: actions/github-script@v3
         with:
           script: |
+            const fs = require('fs')
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
-            console.log(script({github, context}))
+            const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
+            const template = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/template.md`).toString()
+            const readme = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/README.md`).toString()
+            const {
+              output,
+              episode,
+              episodeName,
+              newReadme,
+              newEpisodes
+            } = await script(
+              `${{ secrets.GITHUB_TOKEN }}`,
+              episodes,
+              `${{ secrets.B2_APP_KEY_ID }}`,
+              `${{ secrets.B2_APP_KEY }}`,
+              template,
+              readme
+            )
+            fs.writeFileSync(
+              `~/content/posts/${episodeName}.md`,
+              output
+            );
+            fs.writeFileSync(`~/README.md`, newReadme);
+            fs.writeFileSync(
+              `~/episodes.json`,
+              JSON.stringify(episodes, null, 2)
+            );
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+            file-path: |
+                content/posts/*.md
+                README.md
+                episodes.json
+            commit-msg: Add new episode from GitHub Action
+            github-token: ${{ secrets.GITHUB_TOKEN }}

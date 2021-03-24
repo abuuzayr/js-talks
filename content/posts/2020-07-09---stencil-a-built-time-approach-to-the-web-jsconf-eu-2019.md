@@ -12,7 +12,7 @@ tags:
   - "Manu Martinez-Almeida"
 description: "“We all know and love framework-like features such as hot module replacement, reactive properties, templating, CSS-in-JS, lazy-loaded bundling, etc. Stencil is a new approach, a build-time abstraction with framework-level productivity, that generates hand-optimized components using future-proof web APIs. We’ll discuss the architecture of Stencil and the innovations a compiler can introduce to your apps and design systems!"
 socialImage: "https://2019.jsconf.eu/immutable/36f6553b345eba4f84cbe55032a75df2f81907f9/images/cms/manu-martinez-almeida-5744cff5-1000-square.jpg"
-podcastURL: "https://f000.backblazeb2.com/file/js-talks/Stencil+a+built-time+approach+to+the+web+by+Manu+Martinez-Almeida+JSConf+EU+2019.mp3"
+podcastURL: "https://js-talks.builtforfifty.workers.dev/Stencil+a+built-time+approach+to+the+web+by+Manu+Martinez-Almeida+JSConf+EU+2019.mp3"
 podcastDuration: "0:29:04"
 podcastSpeaker: "Manu Martinez-Almeida"
 podcastSize: 41853315
@@ -24,7 +24,7 @@ Original post, video and transcript on the official [JS Conf EU 2019 website](ht
 
 <div style="text-align: center">
 	<audio controls="controls">
-		<source type="audio/mp3" src="https://f000.backblazeb2.com/file/js-talks/Stencil+a+built-time+approach+to+the+web+by+Manu+Martinez-Almeida+JSConf+EU+2019.mp3"></source>
+		<source type="audio/mp3" src="https://js-talks.builtforfifty.workers.dev/Stencil+a+built-time+approach+to+the+web+by+Manu+Martinez-Almeida+JSConf+EU+2019.mp3"></source>
 		<p>Your browser does not support the audio element.</p>
 	</audio>
 </div>

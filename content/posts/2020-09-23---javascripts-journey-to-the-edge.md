@@ -14,7 +14,7 @@ description: "In September of 2008, Google’s Chromium Project released V8, a J
 
 A decade later, V8, JavaScript, and its new buddy WebAssembly, have expanded to lands charted only a few years after Node.js debuted- known (confusingly) as the “Edge”. In this talk, we’ll introduce what the “Edge” is and why we are excited for it to revolutionize computation on the web. We’ll explore how this adventurous JavaScript engine, V8, is so well suited to tasks previously limited to Virtual Machines, Containers, or even simply Operating Systems. Finally, we’ll talk about security, Spectre, and ask ourselves the age old question, “You can do it, but should you?”."
 socialImage: "https://2019.jsconf.eu/immutable/c4a3ab3f8bb1f7fabecee03bdd395fdd9a1a2543/images/cms/ashley-williams-ef79607c-1000-square.jpg"
-podcastURL: "https://f000.backblazeb2.com/file/js-talks/JavaScript's+Journey+to+the+Edge+by+Ashley+Williams+JSConf+EU+2019.mp3"
+podcastURL: "https://js-talks.builtforfifty.workers.dev/JavaScript's+Journey+to+the+Edge+by+Ashley+Williams+JSConf+EU+2019.mp3"
 podcastDuration: "0:29:23"
 podcastSpeaker: "Ashley Williams"
 podcastSize: 42305338
@@ -26,7 +26,7 @@ Original post, video and transcript on the official [JS Conf EU 2019 website](ht
 
 <div style="text-align: center">
 	<audio controls="controls">
-		<source type="audio/mp3" src="https://f000.backblazeb2.com/file/js-talks/JavaScript's+Journey+to+the+Edge+by+Ashley+Williams+JSConf+EU+2019.mp3"></source>
+		<source type="audio/mp3" src="https://js-talks.builtforfifty.workers.dev/JavaScript's+Journey+to+the+Edge+by+Ashley+Williams+JSConf+EU+2019.mp3"></source>
 		<p>Your browser does not support the audio element.</p>
 	</audio>
 </div>
