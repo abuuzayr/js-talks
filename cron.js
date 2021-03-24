@@ -56,11 +56,11 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
     const upload = await b2.uploadFile({
       uploadUrl: uploadUrl.data.uploadUrl,
       uploadAuthToken: uploadUrl.data.authorizationToken,
-      fileName: `${encodeURI(title)}.mp3`,
+      fileName: `${title}.mp3`,
       data: fs.readFileSync(`${title}.mp3`),
     });
     if (upload)
-      podcast_url = `https://js-talks.builtforfifty.workers.dev/${upload.data.fileName}`;
+      podcast_url = `https://js-talks.builtforfifty.workers.dev/${upload.data.fileName.replace(/\s/g,'+')}`;
   } catch (e) {
     console.log(e);
   }
