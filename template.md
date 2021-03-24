@@ -11,7 +11,7 @@ tags:
 {{/tags}}
 description: "{{description}}"
 socialImage: "{{{img}}}"
-podcastURL: "{{podcast_url}}"
+podcastURL: "{{{podcast_url}}}"
 podcastDuration: "{{podcast_duration}}"
 podcastSpeaker: "{{speaker}}"
 podcastSize: {{podcast_size}}
