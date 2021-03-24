@@ -17,7 +17,7 @@ jobs:
           node-version: '14'
           check-latest: true
       - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2 mustache
-      - run: mkdir -p -m777 ~/content/posts
+      - run: mkdir -p -m777 content/posts
       - uses: actions/github-script@v3
         with:
           script: |
@@ -41,12 +41,12 @@ jobs:
               readme
             )
             fs.writeFileSync(
-              `~/content/posts/${episodeName}.md`,
+              `content/posts/${episodeName}.md`,
               output
             );
-            fs.writeFileSync(`~/README.md`, newReadme);
+            fs.writeFileSync(`README.md`, newReadme);
             fs.writeFileSync(
-              `~/episodes.json`,
+              `episodes.json`,
               JSON.stringify(episodes, null, 2)
             );
       - name: Update resources
