@@ -74,23 +74,15 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
   };
   // 7. create the post md file
   let output = render(template, episode);
-  fs.writeFileSync(
-    `/home/runner/work/js-talks/js-talks/files-to-push/${episode.posting_date}---${episode.slug}.md`,
-    output
-  );
-  // 8. update readme
-  fs.writeFileSync(`/home/runner/work/js-talks/js-talks/files-to-push/README.md`, readme);
-  fs.appendFileSync(
-    `/home/runner/work/js-talks/js-talks/files-to-push/README.md`,
-    `\r\n| ${episode.title} | ${episode.speaker} | [:arrow_forward:](${episode.yt_url}) | [:arrow_right:](https://js-talks.netlify.app/posts/${episode.slug}) | :white_check_mark: |`
-  );
-  fs.writeFileSync(
-    `/home/runner/work/js-talks/js-talks/files-to-push/episodes.json`,
-    episodes
-  );
+  return {
+    output,
+    newEpisode: episode,
+    episodeName: `${episode.posting_date}---${episode.slug}`,
+    newReadme: `${readme}\r\n| ${episode.title} | ${episode.speaker} | [:arrow_forward:](${episode.yt_url}) | [:arrow_right:](https://js-talks.netlify.app/posts/${episode.slug}) | :white_check_mark: |`,
+    newEpisodes: episodes,
+  };
 }
 
 module.exports = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
-    await job(token, episodes, b2AppKeyId, b2AppKey, template, readme)
-    return true
+    return await job(token, episodes, b2AppKeyId, b2AppKey, template, readme)
 }

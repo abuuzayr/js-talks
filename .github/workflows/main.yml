@@ -26,11 +26,21 @@ jobs:
         with:
           script: |
             const fs = require('fs')
+            fs.writeFileSync(
+              `/home/runner/work/js-talks/js-talks/files-to-push/test.txt`,
+              'test'
+            );
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
             const template = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/template.md`).toString()
             const readme = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/README.md`).toString()
-            await script(
+            const {
+              output,
+              episode,
+              episodeName,
+              newReadme,
+              newEpisodes
+            } = await script(
               `${{ secrets.GITHUB_TOKEN }}`,
               episodes,
               `${{ secrets.B2_APP_KEY_ID }}`,
@@ -38,6 +48,15 @@ jobs:
               template,
               readme
             )
+            fs.writeFileSync(
+              `/home/runner/work/js-talks/js-talks/files-to-push/${episodeName}.md`,
+              output
+            );
+            fs.writeFileSync(`/home/runner/work/js-talks/js-talks/files-to-push/README.md`, newReadme);
+            fs.writeFileSync(
+              `/home/runner/work/js-talks/js-talks/files-to-push/episodes.json`,
+              episodes
+            );
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
