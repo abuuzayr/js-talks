@@ -79,7 +79,10 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
     newEpisode: episode,
     episodeName: `${episode.posting_date}---${episode.slug}`,
     newReadme: `${readme}\r\n| ${episode.title} | ${episode.speaker} | [:arrow_forward:](${episode.yt_url}) | [:arrow_right:](https://js-talks.netlify.app/posts/${episode.slug}) | :white_check_mark: |`,
-    newEpisodes: episodes,
+    newEpisodes: episodes.map(e => {
+      if (e.slug === episode.slug) return episode
+      return e
+    }),
   };
 }
 
