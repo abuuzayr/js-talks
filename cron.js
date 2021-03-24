@@ -74,7 +74,6 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
   };
   // 7. create the post md file
   let output = render(template, episode);
-  fs.mkdirSync('/files-to-push')
   fs.writeFileSync(
     `/files-to-push/${episode.posting_date}---${episode.slug}.md`,
     output

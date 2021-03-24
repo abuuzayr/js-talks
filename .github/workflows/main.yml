@@ -35,7 +35,7 @@ jobs:
               template,
               readme
             )
-
+      - run: mkdir /files-to-push
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
