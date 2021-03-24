@@ -21,11 +21,12 @@ jobs:
       - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2 mustache
       - run: whoami
       - run: pwd
-      - run: mkdir ~/files-to-push
+      - run: mkdir -m777 /home/runner/work/js-talks/js-talks/files-to-push/
       - uses: actions/github-script@v3
         with:
           script: |
             const fs = require('fs')
+            console.log(__dirname)
             fs.writeFileSync(
               `/home/runner/work/js-talks/js-talks/files-to-push/test.txt`,
               'test'
