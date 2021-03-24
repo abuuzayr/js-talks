@@ -19,15 +19,11 @@ jobs:
           node-version: '14'
           check-latest: true
       - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2 mustache
-      - run: mkdir -m777 /home/runner/work/js-talks/js-talks/files-to-push/
+      - run: mkdir -m777 ~/files-to-push/
       - uses: actions/github-script@v3
         with:
           script: |
             const fs = require('fs')
-            fs.writeFileSync(
-              `/home/runner/work/js-talks/js-talks/files-to-push/test.txt`,
-              'test'
-            );
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
             const template = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/template.md`).toString()
@@ -47,19 +43,20 @@ jobs:
               readme
             )
             fs.writeFileSync(
-              `/home/runner/work/js-talks/js-talks/files-to-push/${episodeName}.md`,
+              `~/content/posts/${episodeName}.md`,
               output
             );
-            fs.writeFileSync(`/home/runner/work/js-talks/js-talks/files-to-push/README.md`, newReadme);
+            fs.writeFileSync(`~/README.md`, newReadme);
             fs.writeFileSync(
-              `/home/runner/work/js-talks/js-talks/files-to-push/episodes.json`,
-              episodes
+              `~/episodes.json`,
+              JSON.stringify(episodes, null, 2)
             );
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
             file-path: |
-                files-to-push/*.md
-                files-to-push/episodes.json
+                content/posts/*.md
+                README.md
+                episodes.json
             commit-msg: Add new episode from GitHub Action
             github-token: ${{ secrets.GITHUB_TOKEN }}
