@@ -1,9 +1,10 @@
 [build]
   publish = "public"
-  command = "gatsby build"
+  command = "npm run build"
 [build.environment]
-  YARN_VERSION = "1.3.2"
+  YARN_VERSION = "1.22.5"
   YARN_FLAGS = "--no-ignore-optional"
+  NODE_VERSION = "14.5.0"
 [[redirects]]
   from = "/*"
   to = "/index.html"
