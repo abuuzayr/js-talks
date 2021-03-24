@@ -22,10 +22,11 @@ jobs:
       - uses: actions/github-script@v3
         with:
           script: |
+            const fs = require('fs')
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
-            const template = require(`${process.env.GITHUB_WORKSPACE}/template.md`).toString()
-            const readme = require(`${process.env.GITHUB_WORKSPACE}/readme.md`)
+            const template = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/template.md`).toString()
+            const readme = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/readme.md`).toString()
             await script(
               `${{ secrets.GITHUB_TOKEN }}`,
               episodes,
