@@ -18,10 +18,27 @@ jobs:
         with:
           node-version: '14'
           check-latest: true
-      - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2
+      - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2 mustache
       - uses: actions/github-script@v3
         with:
           script: |
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
-            await script(`${{ secrets.GITHUB_TOKEN }}`, episodes, `${{ secrets.B2_APP_KEY_ID }}`, `${{ secrets.B2_APP_KEY }}`)
+            const template = require(`${process.env.GITHUB_WORKSPACE}/template.md`).toString()
+            const readme = require(`${process.env.GITHUB_WORKSPACE}/readme.md`)
+            await script(
+              `${{ secrets.GITHUB_TOKEN }}`,
+              episodes,
+              `${{ secrets.B2_APP_KEY_ID }}`,
+              `${{ secrets.B2_APP_KEY }}`,
+              template,
+              readme
+            )
+
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+            file-path: |
+                files/*.md
+            commit-msg: Add new episode from GitHub Action
+            github-token: ${{ secrets.GITHUB_TOKEN }}
