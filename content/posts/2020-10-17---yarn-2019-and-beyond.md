@@ -12,7 +12,7 @@ tags:
   - "Maël Nison"
 description: "Since its creation in 2016, Yarn continuously pushed for better standards in the JavaScript ecosystem in particular. Dependency locking, built-in monorepos, zero-network modes, Plug’n’Play resolution, we’ve been on all fronts. Let’s discuss what we have in store for the future, and what it means for our ecosystem!"
 socialImage: "https://2019.jsconf.eu/immutable/c9eaff5c045713d85755d060e51567470613c99c/images/cms/ma-l-nison-4e1a9583-1000-square.jpg"
-podcastURL: "https://f000.backblazeb2.com/file/js-talks/Yarn+2019+and+Beyond+by+Ma%C3%ABl+Nison+JSConf+EU+2019.mp3"
+podcastURL: "https://js-talks.builtforfifty.workers.dev/Yarn+2019+and+Beyond+by+Ma%C3%ABl+Nison+JSConf+EU+2019.mp3"
 podcastDuration: "0:22:00"
 podcastSpeaker: "Maël Nison"
 podcastSize: 31677472
@@ -24,7 +24,7 @@ Original post, video and transcript on the official [JS Conf EU 2019 website](ht
 
 <div style="text-align: center">
 	<audio controls="controls">
-		<source type="audio/mp3" src="https://f000.backblazeb2.com/file/js-talks/Yarn+2019+and+Beyond+by+Ma%C3%ABl+Nison+JSConf+EU+2019.mp3"></source>
+		<source type="audio/mp3" src="https://js-talks.builtforfifty.workers.dev/Yarn+2019+and+Beyond+by+Ma%C3%ABl+Nison+JSConf+EU+2019.mp3"></source>
 		<p>Your browser does not support the audio element.</p>
 	</audio>
 </div>

@@ -12,7 +12,7 @@ tags:
   - "Jenn Schiffer"
 description: "Most people connected to the Web are carrying JavaScript in their pocket without even knowing it, and those of us making tools for building with it are either unaware of or blissfully ignoring that population. While JavaScript’s pervasiveness grows, so is the gap in its literacy, and this is a gap we need to solve if we’re ever going to survive self-driving cars on the blockchain. Let’s talk about JavaScript, the tool, as opposed to JavaScript, the Oracle-run Twitter account."
 socialImage: "https://2019.jsconf.eu//immutable/9ce6060a70a445b0a6cbfe1d230db612998f9988/images/cms/jenn-schiffer-eab56192-1000-square.jpg"
-podcastURL: "https://f000.backblazeb2.com/file/js-talks/Jenn+Schiffer+Javascript+Considered...Useful+%C2%A0JSConf+EU+2019.mp3"
+podcastURL: "https://js-talks.builtforfifty.workers.dev/Jenn+Schiffer+Javascript+Considered...Useful+%C2%A0JSConf+EU+2019.mp3"
 podcastDuration: "0:38:25"
 podcastSpeaker: "Jenn Schiffer"
 podcastSize: 55328737 
@@ -24,7 +24,7 @@ Original post, video and transcript on the official [JS Conf EU 2019 website](ht
 
 <div style="text-align: center">
 	<audio controls="controls">
-		<source type="audio/mp3" src="https://f000.backblazeb2.com/file/js-talks/Jenn+Schiffer+Javascript+Considered...Useful+%C2%A0JSConf+EU+2019.mp3"></source>
+		<source type="audio/mp3" src="https://js-talks.builtforfifty.workers.dev/Jenn+Schiffer+Javascript+Considered...Useful+%C2%A0JSConf+EU+2019.mp3"></source>
 		<p>Your browser does not support the audio element.</p>
 	</audio>
 </div>

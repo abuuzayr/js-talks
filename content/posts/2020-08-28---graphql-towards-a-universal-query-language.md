@@ -14,7 +14,7 @@ description: "From its friendly developer experience to its performance benefits
 
 We will start with a case study on how we use GraphQL queries as an universal interface to resolve data over a variety of datasources ranging from remote HTTP requests, to local CSV files, and in-memory data stores. Next we will explore these ideas further, using GraphQL queries as an interface over the DOM and various other web APIs."
 socialImage: "https://2019.jsconf.eu/immutable/2a86a2065729e8c3fd7491aa8a1f96f9e591787a/images/cms/michael-mifsud-e0c20524-1000-square.jpg"
-podcastURL: "https://f000.backblazeb2.com/file/js-talks/GraphQL+Towards+a+universal+query+language+by+Michael+Mifsud+JSConf+EU+2019.mp3"
+podcastURL: "https://js-talks.builtforfifty.workers.dev/GraphQL+Towards+a+universal+query+language+by+Michael+Mifsud+JSConf+EU+2019.mp3"
 podcastDuration: "0:27:12"
 podcastSpeaker: "Michael Mifsud"
 podcastSize: 39173779
@@ -26,7 +26,7 @@ Original post, video and transcript on the official [JS Conf EU 2019 website](ht
 
 <div style="text-align: center">
 	<audio controls="controls">
-		<source type="audio/mp3" src="https://f000.backblazeb2.com/file/js-talks/GraphQL+Towards+a+universal+query+language+by+Michael+Mifsud+JSConf+EU+2019.mp3"></source>
+		<source type="audio/mp3" src="https://js-talks.builtforfifty.workers.dev/GraphQL+Towards+a+universal+query+language+by+Michael+Mifsud+JSConf+EU+2019.mp3"></source>
 		<p>Your browser does not support the audio element.</p>
 	</audio>
 </div>
