@@ -42,6 +42,7 @@ jobs:
         uses: test-room-7/action-update-file@v1
         with:
             file-path: |
-                ~/files-to-push/*.md
+                /home/runner/work/js-talks/js-talks/files-to-push/*.md
+                /home/runner/work/js-talks/js-talks/files-to-push/episodes.json
             commit-msg: Add new episode from GitHub Action
             github-token: ${{ secrets.GITHUB_TOKEN }}
