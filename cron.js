@@ -12,14 +12,10 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
   let episode = episodes.find((e) => {
     return new Date(e.posting_date) < new Date() && !e.podcast_url;
   });
-  const ytStream = await new Promise((resolve, reject) => {
-    ytdl(episode.yt_url, {
-      quality: "highestaudio",
-      filter: "audioonly",
-    }).on('end', () => {
-      resolve()
-    })
-  })
+  const ytStream = ytdl(episode.yt_url, {
+    quality: "highestaudio",
+    filter: "audioonly",
+  });
 
   const videoID = ytdl.getURLVideoID(episode.yt_url);
   const info = await ytdl.getInfo(videoID);
@@ -61,7 +57,7 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
       uploadUrl: uploadUrl.data.uploadUrl,
       uploadAuthToken: uploadUrl.data.authorizationToken,
       fileName: `${encodeURI(title)}.mp3`,
-      data: Buffer.from(`${title}.mp3`),
+      data: fs.readFileSync(`${title}.mp3`),
     });
     if (upload)
       podcast_url = `https://js-talks.builtforfifty.workers.dev/${upload.data.fileName}`;
