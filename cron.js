@@ -19,7 +19,7 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
 
   const videoID = ytdl.getURLVideoID(episode.yt_url);
   const info = await ytdl.getInfo(videoID);
-  const { lengthSeconds: length, title } = info.player_response.videoDetails;
+  const { lengthSeconds: length } = info.player_response.videoDetails;
   const audioFormats = ytdl.filterFormats(info.formats, "audioonly");
   const format = ytdl.chooseFormat(audioFormats, { quality: "highestaudio" });
   const fileSize = format.contentLength;
@@ -33,7 +33,7 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
           reject();
         })
         .on("end", () => resolve())
-        .save(`${title}.mp3`);
+        .save(`${episode.slug}.mp3`);
     });
   } catch (e) {
     return false;
@@ -56,8 +56,8 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
     const upload = await b2.uploadFile({
       uploadUrl: uploadUrl.data.uploadUrl,
       uploadAuthToken: uploadUrl.data.authorizationToken,
-      fileName: `${title}.mp3`,
-      data: fs.readFileSync(`${title}.mp3`),
+      fileName: `${episode.slug}.mp3`,
+      data: fs.readFileSync(`${episode.slug}.mp3`),
     });
     if (upload)
       podcast_url = `https://js-talks.builtforfifty.workers.dev/${upload.data.fileName.replace(/\s/g,'+')}`;
