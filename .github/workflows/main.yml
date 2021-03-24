@@ -26,7 +26,7 @@ jobs:
             const script = require(`${process.env.GITHUB_WORKSPACE}/cron.js`)
             const episodes = require(`${process.env.GITHUB_WORKSPACE}/episodes.json`)
             const template = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/template.md`).toString()
-            const readme = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/readme.md`).toString()
+            const readme = fs.readFileSync(`${process.env.GITHUB_WORKSPACE}/README.md`).toString()
             await script(
               `${{ secrets.GITHUB_TOKEN }}`,
               episodes,
