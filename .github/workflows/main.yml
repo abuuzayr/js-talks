@@ -19,6 +19,7 @@ jobs:
           node-version: '14'
           check-latest: true
       - run: npm install ytdl-core @ffmpeg-installer/ffmpeg fluent-ffmpeg backblaze-b2 mustache
+      - run: mkdir /files-to-push
       - uses: actions/github-script@v3
         with:
           script: |
@@ -35,7 +36,6 @@ jobs:
               template,
               readme
             )
-      - run: mkdir /files-to-push
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
