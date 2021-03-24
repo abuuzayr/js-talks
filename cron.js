@@ -12,10 +12,14 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
   let episode = episodes.find((e) => {
     return new Date(e.posting_date) < new Date() && !e.podcast_url;
   });
-  const ytStream = ytdl(episode.yt_url, {
-    quality: "highestaudio",
-    filter: "audioonly",
-  });
+  const ytStream = await new Promise((resolve, reject) => {
+    ytdl(episode.yt_url, {
+      quality: "highestaudio",
+      filter: "audioonly",
+    }).on('end', () => {
+      resolve()
+    })
+  })
 
   const videoID = ytdl.getURLVideoID(episode.yt_url);
   const info = await ytdl.getInfo(videoID);
@@ -56,7 +60,7 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
     const upload = await b2.uploadFile({
       uploadUrl: uploadUrl.data.uploadUrl,
       uploadAuthToken: uploadUrl.data.authorizationToken,
-      fileName: `${title}.mp3`,
+      fileName: `${encodeURI(title)}.mp3`,
       data: Buffer.from(`${title}.mp3`),
     });
     if (upload)
