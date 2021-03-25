@@ -2,9 +2,9 @@
   {
     "title": "Embedding V8 in the real world",
     "speaker": "Stanimira Vlaeva",
-    "yt_url": "https://youtu.be/wz7Znu6tqFw",
     "source": "https://2019.jsconf.eu/stanimira-vlaeva/embedding-v8-in-the-real-world.html",
     "slug": "embedding-v8-in-the-real-world-stanimira-vlaeva-jsconf-eu-2019",
+    "img": "https://2019.jsconf.eu/immutable/05cf627ca32b7a46d65956e57f69d47b88e4e4ef/images/cms/stanimira-vlaeva-a37165e7-1000-square.jpg",
     "event": "JS Conf 2019",
     "tags": [
       "Open source",
@@ -12,11 +12,402 @@
       "JS Conf EU 2019",
       "Stanimira Vlaeva"
     ],
-    "description": "V8 is the JavaScript engine powering Google Chrome, Node.js and NativeScript. NativeScript embeds V8 to process JavaScript and dynamically call Android APIs. This enables developers to write Android applications in JavaScript and directly access the underlying OS. Come to this session to learn what challenges the NativeScript team met embedding V8 in a mobile framework and how you can power any C++ based application with one of the most sophisticated JavaScript engines.",
-    "img": "https://2019.jsconf.eu/immutable/05cf627ca32b7a46d65956e57f69d47b88e4e4ef/images/cms/stanimira-vlaeva-a37165e7-1000-square.jpg",
     "posting_date": "2021-03-22",
+    "yt_url": "https://youtu.be/wz7Znu6tqFw",
+    "description": "V8 is the JavaScript engine powering Google Chrome, Node.js and NativeScript. NativeScript embeds V8 to process JavaScript and dynamically call Android APIs. This enables developers to write Android applications in JavaScript and directly access the underlying OS. Come to this session to learn what challenges the NativeScript team met embedding V8 in a mobile framework and how you can power any C++ based application with one of the most sophisticated JavaScript engines.",
     "podcast_url": "https://js-talks.builtforfifty.workers.dev/embedding-v8-in-the-real-world-stanimira-vlaeva-jsconf-eu-2019.mp3",
     "podcast_duration": "25:51",
     "podcast_size": "20569609"
+  },
+  {
+    "source": "https://2019.jsconf.eu/marley-rafson/the-case-for-augmented-reality-on-the-web.html",
+    "img": "https://2019.jsconf.eu/immutable/b9aa45cf57c120449a3052ed018e1e22787134e6/images/cms/marley-rafson-6e375857-1000-square.jpg",
+    "speaker": "Marley Rafson",
+    "title": "The Case for Augmented Reality on the Web",
+    "event": "JS Conf 2019",
+    "slug": "the-case-for-augmented-reality-on-the-web",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Marley Rafson"
+    ],
+    "description": "Augmented reality is already making its way into everyday browsers! This talk will dive into what that might mean for the traditional web developer, and why developing immersive experiences makes so much sense on the web, even in the face of native alternatives. We will cover topics like off-the-shelf web technologies, performance, and privacy all in the context of augmented reality.",
+    "yt_url": "https://youtu.be/Jk4tEMBJleE",
+    "posting_date": "2021-03-26"
+  },
+  {
+    "source": "https://2019.jsconf.eu/sher-minn-chong/recreating-retro-computer-art-with-js.html",
+    "img": "https://2019.jsconf.eu/immutable/b40f0f57fc6f5fd616f190160f7ddc86d11de10d/images/cms/sher-minn-chong-185c235c-1000-square.jpg",
+    "speaker": "Sher Minn Chong",
+    "title": "Recreating Retro Computer Art with JS!",
+    "event": "JS Conf 2019",
+    "slug": "recreating-retro-computer-art-with-js",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Sher Minn Chong"
+    ],
+    "description": "Before personal computing became a thing, there was a handful of programmers and artists saw computers as a tool beyond their intended purpose: to create art. In this talk, we will explore the early history of computer art, from ghostly oscilloscope paints to pre-ASCII text art. We’ll discuss how simple techniques with limited technology back then could yield compelling pieces. We’ll see how the history of computer displays and printers have evolved in the 1950s to 1980s. While quite a bit of retro art survives today, most of them do not come preserved with their algorithms. In this talk, I’ll also demo some attempts to recreate retro art pieces using p5.js, a JavaScript graphics library as well as talk through some of the techniques of creating generative computer art.",
+    "yt_url": "https://youtu.be/nC5q5JxLjnY",
+    "posting_date": "2021-03-30"
+  },
+  {
+    "source": "https://2019.jsconf.eu/fedor-indutny/llhttp-new-http-11-parser-for-nodejs.html",
+    "img": "https://2019.jsconf.eu/immutable/2ce77c8f5ba2466c13acc1691bd393d027a0a769/images/cms/fedor-indutny-97b0af9a-1000-square.jpg",
+    "speaker": "Fedor Indutny",
+    "title": "llhttp - new HTTP 1.1 parser for Node.js",
+    "event": "JS Conf 2019",
+    "slug": "llhttp-new-http-11-parser-for-nodejs",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Fedor Indutny"
+    ],
+    "description": "Node.js has been using a derivative of nginx’s parser with a lot of customization/rewrite since its inception. Despite being fast enough, the project architecture made it very hard to maintain in a long run. To mitigate that, the author has created a tool to generate the new HTTP parser called “llhttp” from the TypeScript code in understandable, verifiable, and maintainable way. Incidentally, the performance of “llhttp” is two times better than of the old parser. In this talk we’ll walk through the basics of generating such parsers and how “llhttp” works.",
+    "yt_url": "https://youtu.be/x3k_5Mi66sY",
+    "posting_date": "2021-04-03"
+  },
+  {
+    "source": "https://2019.jsconf.eu/meya-stephen-kenigbolo/javascript-is-for-everyone.html",
+    "img": "https://2019.jsconf.eu/immutable/63f21b13822839207c5efe2a5f5ce08055c5aeec/images/cms/meya-stephen-kenigbolo-5c2473a8-1000-square.jpg",
+    "speaker": "Meya Stephen Kenigbolo",
+    "title": "Javascript is for Everyone!",
+    "event": "JS Conf 2019",
+    "slug": "javascript-is-for-everyone",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Meya Stephen Kenigbolo"
+    ],
+    "description": "Teaching absolute beginners with no technical experience whatsoever to understand Javascript can be quite a daunting task. It’s more challenging if you have a thick British accent and your students are mostly African students. If you’ve ever designed a tech curriculum then you understand how complicated this can be. At code Afrique where we help the community by offering a free weekend intensive bootcamp, we explored and have now achieved success with ember where we had earlier failed. The aim of this talk is to show, what we tried, where we failed and how Javascript via Ember brought us success like no other.",
+    "yt_url": "https://youtu.be/4WuZozUZuHM",
+    "posting_date": "2021-04-07"
+  },
+  {
+    "source": "https://2019.jsconf.eu/houssein-djirdeh/performance-empathy.html",
+    "img": "https://2019.jsconf.eu/immutable/6ad488bc5cfd311a0c9e33efc1f5bcc60e4061e2/images/cms/houssein-djirdeh-ecf3f473-1000-square.jpg",
+    "speaker": "Houssein Djirdeh",
+    "title": "Performance Empathy",
+    "event": "JS Conf 2019",
+    "slug": "performance-empathy",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Houssein Djirdeh"
+    ],
+    "description": "Performance advocates spend a lot of time telling developers how to build fast and reliable experiences on the web. Every website is built differently, however. Instead of just listing a number of progressive enhancements and techniques, this talk will try to take a different approach. We’ll first explore who needs to consider improving their site in the first place and see if their is a messaging problem between advocates and developers in the community. We’ll then address concerns that can arise when performance is being worked on and discuss some real and practical solutions.",
+    "yt_url": "https://youtu.be/uIBYN6w9cBc",
+    "posting_date": "2021-04-11"
+  },
+  {
+    "source": "https://2019.jsconf.eu/alexandra-sunderland/bringing-back-dial-up-the-internet-over-sms.html",
+    "img": "https://2019.jsconf.eu/immutable/28b4033cd94bc3be6b14f0058fef5bf6a15cc347/images/cms/alexandra-sunderland-f61603a4-1000-square.jpg",
+    "speaker": "Alexandra Sunderland",
+    "title": "Bringing back dial-up: the internet over SMS",
+    "event": "JS Conf 2019",
+    "slug": "bringing-back-dial-up-the-internet-over-sms",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Alexandra Sunderland"
+    ],
+    "description": "Travelling to JSConf EU from another country? You probably had to pay an arm and a leg for a data roaming package on your phone. But there’s a better way! What if I told you that you could stay connected to the internet with a phone that can only send and receive text messages? In this talk we’ll build our own browser that makes all requests over SMS, so that next time you can forget about that fancy data package.",
+    "yt_url": "https://youtu.be/ZsBAkSxwU5c",
+    "posting_date": "2021-04-15"
+  },
+  {
+    "source": "https://2019.jsconf.eu/nat-alison/polyhedra-i-choose-you-letting-your-passions-take-form.html",
+    "img": "https://2019.jsconf.eu/immutable/778ed1961a2908115edc19e5f6ee48402cad485b/images/cms/nat-alison-35f42a04-1000-square.jpg",
+    "speaker": "Nat Alison",
+    "title": "Polyhedra, I Choose You! Letting Your Passions Take Form",
+    "event": "JS Conf 2019",
+    "slug": "polyhedra-i-choose-you-letting-your-passions-take-form",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Nat Alison"
+    ],
+    "description": "For millennia, mathematicians and artists have been fascinated by polyhedra, 3D shapes that encode complex symmetries and relationships. My name is [anonymized], and for the last ten years I have dedicated my life to sharing the beauty of these shapes with the world. Join me on an epic quest filled with ancient 3D libraries, arcane mathematical data structures, and Pokémon GIFs as I strive to make my vision a reality the only way I know how: an interactive web app. Come and twist, expand, and gyroelongate polyhedra with me, and let my journey inspire you to use the web to make your own passions come to life.",
+    "yt_url": "https://youtu.be/jhdJHBD9Fts",
+    "posting_date": "2021-04-19"
+  },
+  {
+    "source": "https://2019.jsconf.eu/pier-paolo-fumagalli/tales-from-the-toilet-how-javascript-helps-the-production-of-tissue-papers.html",
+    "img": "https://2019.jsconf.eu/immutable/dbaa889c75297d8efa1e9c8b932232dffd0f31e3/images/cms/pier-paolo-fumagalli-a4d34341-1000-square.jpg",
+    "speaker": "Pier Paolo Fumagalli",
+    "title": "Tales from the Toilet: how Javascript helps the production of tissue papers",
+    "event": "JS Conf 2019",
+    "slug": "tales-from-the-toilet-how-javascript-helps-the-production-of-tissue-papers",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Pier Paolo Fumagalli"
+    ],
+    "description": "Producing tissue paper, kitchen rolls, folded napkins or toilet paper is not for the faint of heart. Gigantic machines rewind huge rolls of tissue paper weighing almost a ton processing it at a speed of 40 km/h, and a single minute of downtime cuts into the slim margins of the paper industry. The asynchronous nature of Javascript and Node.JS allows telemetry data to be harvested from ancient PLCs controlling the production, and its real-time analysis in the cloud, enabling operators and factories to raise production quality, improve performance and reduce waste. Join me on a journey to understand how modern programming techniques make IIoT and Industry 4.0 a reality today in the toilet paper world!",
+    "yt_url": "https://youtu.be/G_56cutmrBc",
+    "posting_date": "2021-04-23"
+  },
+  {
+    "source": "https://2019.jsconf.eu/allison-mcmillan/bdd-baby-driven-development.html",
+    "img": "https://2019.jsconf.eu/immutable/160f6383a96d0d6a05c3fca145b061609fe779b1/images/cms/allison-mcmillan-b807099e-1000-square.jpg",
+    "speaker": "Allison McMillan",
+    "title": "BDD: Baby Driven Development",
+    "event": "JS Conf 2019",
+    "slug": "bdd-baby-driven-development",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Allison McMillan"
+    ],
+    "description": "When I became a parent, I was completely unprepared for the challenges that awaited me. I reached out to hundreds of fellow parents in tech and learned there are common challenges that simply aren’t spoken about. These focus around one fact that no one wants to admit… parenting is not fun. Parenting is stressful, difficult, and oftentimes incredibly lonely. But being a parent also makes people more organized, focused, and empathetic. We’ll explore these survey results to expose common trends and issues and discuss solutions that show how supporting parents helps all team members thrive.",
+    "yt_url": "https://youtu.be/EndmLEaKPw8",
+    "posting_date": "2021-04-27"
+  },
+  {
+    "source": "https://2019.jsconf.eu/ella-van-durpe/designing-a-rich-content-editor-for-a-third-of-the-web.html",
+    "img": "https://2019.jsconf.eu/immutable/54a3a8a48fe823c0fcd9739bb3051fc458d406e1/images/cms/ella-van-durpe-b5ad7562-1000-square.jpg",
+    "speaker": "Ella van Durpe",
+    "title": "Designing a Rich Content Editor for a Third of the Web",
+    "event": "JS Conf 2019",
+    "slug": "designing-a-rich-content-editor-for-a-third-of-the-web",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Ella van Durpe"
+    ],
+    "description": "How WordPress built its own brand new visual editor experience from the ground up. The talk will include an introduction of WordPress and how the Gutenberg editor project started, details of how it works and how we incrementally improved the block editor over two years, and what our plans are for the future.",
+    "yt_url": "https://youtu.be/ZNWNhUPrqB4",
+    "posting_date": "2021-05-01"
+  },
+  {
+    "source": "https://2019.jsconf.eu/johnny-austin/finding-your-abstraction-sweet-spot.html",
+    "img": "https://2019.jsconf.eu/immutable/533ce1f8d9b37a1717ec1017f4193bed392ad0f9/images/cms/johnny-austin-df7ceb11-1000-square.jpg",
+    "speaker": "Johnny Austin",
+    "title": "Finding Your Abstraction Sweet Spot",
+    "event": "JS Conf 2019",
+    "slug": "finding-your-abstraction-sweet-spot",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Johnny Austin"
+    ],
+    "description": "Many would argue there are only two hard problems in software: naming and cache invalidation. I’d argue there’s a third problem - abstractions. Whether you’re implementing an API for devs outside of your organization or creating a reusable library for devs on your team, creating the right level of abstraction is difficult. You have to balance flexibility with the ease-of-use. The correct choice is often a function of time constraints, compromise, and trial & error. I’ll talk about how to navigate these issues more efficiently.",
+    "yt_url": "https://youtu.be/go5VCfJMJhw",
+    "posting_date": "2021-05-05"
+  },
+  {
+    "source": "https://2019.jsconf.eu/constanza-yanez-calderon/about-life-robots-and-cats.html",
+    "img": "https://2019.jsconf.eu/immutable/dd3ad05b45ec0e10367ccf1270677ba3972479f0/images/cms/constanza-y-ez-calder-n-555cd4f9-1000-square.jpg",
+    "speaker": "Constanza Yáñez Calderón",
+    "title": "About life, robots and cats!",
+    "event": "JS Conf 2019",
+    "slug": "about-life-robots-and-cats",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Constanza Yáñez Calderón"
+    ],
+    "description": "When I was a child I dreamt a lot about creating robots that helped me in my daily life, like tidying up my bedroom. That was just a dream till I grow up and found out that there’s something called home automation. So I decided to build Sasha, my cats’ pet sitter, that helps me by feeding my cats when I have to get home a little bit late. Sasha changed my life and my cats are stressless, because they can eat their meal at the right time. In this talk I will share my experience on using JavaScript to build Sasha and will walkthrough its features. Last, I’ll talk about other possible use cases and the potential of home automation with JavaScript.",
+    "yt_url": "https://youtu.be/GJ7zLofY1V8",
+    "posting_date": "2021-05-09"
+  },
+  {
+    "source": "https://2019.jsconf.eu/amanda-sopkin/what-js-developers-can-learn-from-medieval-coats-of-arms-about-accessibility.html",
+    "img": "https://2019.jsconf.eu/immutable/8baaa252b0dc3511b2e8ff51f00fb3fac7552719/images/cms/amanda-sopkin-a834cbe6-1000-square.jpg",
+    "speaker": "Amanda Sopkin",
+    "title": "What JS Developers can Learn from Medieval Coats of Arms about Accessibility",
+    "event": "JS Conf 2019",
+    "slug": "what-js-developers-can-learn-from-medieval-coats-of-arms-about-accessibility",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Amanda Sopkin"
+    ],
+    "description": "Accessibility on the web for all groups including the visually and motor impaired is an important issue. But many of the usability lessons we explore on our products today are actually centuries old. Let’s explore how these concepts are manifested in coats of arms throughout history. Come learn about what we can learn from the designers of medieval crests.",
+    "yt_url": "https://youtu.be/jVfVsKXdYK0",
+    "posting_date": "2021-05-13"
+  },
+  {
+    "source": "https://2019.jsconf.eu/ziran-sun/build-an-end-to-end-iot-system-using-javascript-with-gdpr-awareness.html",
+    "img": "https://2019.jsconf.eu/immutable/3c48692d6ed65e425ef9f4e70ad1ce3f89dc8bdd/images/cms/ziran-sun-d86d5f9a-1000-square.jpg",
+    "speaker": "Ziran Sun",
+    "title": "Build an end-to-end IoT system using JavaScript with \"GDPR awareness\"",
+    "event": "JS Conf 2019",
+    "slug": "build-an-end-to-end-iot-system-using-javascript-with-gdpr-awareness",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Ziran Suna"
+    ],
+    "description": "This talk will discuss why we think that JavaScript is a good language option for IoT development by walking you through a loosely coupled end to end IoT system, from new device on-boarding to remote access via gateway. Technologies we have been used and/or contributed to for building the IoT system using JavaScript will be discussed. At each stage, GDPR compliance of these technologies will be looked into. To address the issue of resource restriction in embedded devices, we will introduce you to JerryScript, an ultra-light JavaScript engine by Samsung. It is followed by a comparison of popular JavaScript platforms based on JerryScript that provide direct JavaScript APIs to developers. The open gateway framework is node.js based and targets at decentralized ‘Internet of Things’ with privacy and security in mind.",
+    "yt_url": "https://youtu.be/2YDI2GUmmFI",
+    "posting_date": "2021-05-17"
+  },
+  {
+    "source": "https://2019.jsconf.eu/jason-straughan/teaching-kids-to-code-by-a-13-year-old.html",
+    "img": "https://2019.jsconf.eu/immutable/eab09380b0337d5e7e5a6796ddbfcb174cba13fd/images/cms/jason-straughan-d1233a3d-1000-square.jpg",
+    "speaker": "Jason Straughan",
+    "title": "Teaching Kids to Code by a 13 year-old",
+    "event": "JS Conf 2019",
+    "slug": "teaching-kids-to-code-by-a-13-year-old",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Jason Straughan"
+    ],
+    "description": "Teaching programming to children is hard. Computer Science topics can be difficult to grasp using standard programming languages and tools. Using MIT’s Scratch programming platform, creating games and working software is simple and fun thanks to their drag and drop interface. To prove that this is as simple as it sounds, this session will be led by a 13-year-old. What better way to learn how to teach kids how to code than by learning from a kid?",
+    "yt_url": "https://youtu.be/26hois9cs-o",
+    "posting_date": "2021-05-21"
+  },
+  {
+    "source": "https://2019.jsconf.eu/bryan-hughes/the-contentious-relationship-between-the-lgbtq-community-and-tech.html",
+    "img": "https://2019.jsconf.eu/immutable/9a3b4ad36e0d7eb24626557a24997390df00d848/images/cms/bryan-hughes-2695620b-1000-square.jpg",
+    "speaker": "Bryan Hughes",
+    "title": "The Contentious Relationship Between the LGBTQ+ community and Tech",
+    "event": "JS Conf 2019",
+    "slug": "the-contentious-relationship-between-the-lgbtq-community-and-tech",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Bryan Hughes"
+    ],
+    "description": "“Queers hate techies,” the slogan proudly proclaimed in a window in San Francisco. Being a queer techie, I was immediately conflicted. The tech industry provides a safe haven for many queer folks, myself included. It offers stable employement to us more willingly than other industries. These benefits don’t extend to all queer folks though, and these benefits are often revoked as soon as we step out of line. Queer folks are a model minority in an industry who’s products often negatively impact our community. This talk will dive into these complications and how we can improve the tech industry to make it a truly welcoming place for queer folks.",
+    "yt_url": "https://youtu.be/fSN3LVbXTkg",
+    "posting_date": "2021-05-25"
+  },
+  {
+    "source": "https://2019.jsconf.eu/roshan-gautam/you-should-start-a-tech-community-too.html",
+    "img": "https://2019.jsconf.eu/immutable/d3339cec81d42c59f279130d3b6cbad8b4699870/images/cms/roshan-gautam-f98f15c0-1000-square.jpg",
+    "speaker": "Roshan Gautam",
+    "title": "You should start a tech community too.",
+    "event": "JS Conf 2019",
+    "slug": "you-should-start-a-tech-community-too",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Roshan Gautam"
+    ],
+    "description": "I will share my story of establishing and growing JS Community in a developing country Nepal. How tech communities will help you and other grow together ? Challenges that you might face while starting a community in your place. (Based on my experience) How to overcome these challenges ?",
+    "yt_url": "https://youtu.be/xZrfXATxJ38",
+    "posting_date": "2021-05-29"
+  },
+  {
+    "source": "https://2019.jsconf.eu/garann-means/what-happened-to-my-javascript-phone.html",
+    "img": "https://2019.jsconf.eu/immutable/b5ac24049f31251c0f64bbcaadc324f0991dc2ca/images/cms/garann-means-e4cdd1dc-1000-square.jpg",
+    "speaker": "Garann Means",
+    "title": "What happened to my JavaScript phone?",
+    "event": "JS Conf 2019",
+    "slug": "what-happened-to-my-javascript-phone",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Garann Means"
+    ],
+    "description": "Not long ago, it seemed like JavaScript devices were going to free JS developers from the constraints of the browser and let us control every aspect of our lives as easily as we once controlled hover menus. Though nodebots were captivating, many of us were anxious for the JS device revolution to reach a more mundane destination: our phones. And yet today the constraints of the mobile landscape look not much different from several years ago. We have the same two operating systems, the same two app stores, and same option to write a native app or push people to save what is still mostly a bookmark. How did we cover so little distance, given the enthusiasm, resources, and potential that appeared to exist, and more importantly, how close can we come to a JavaScript phone today?",
+    "yt_url": "https://youtu.be/14wIbWGyaKg",
+    "posting_date": "2021-06-02"
+  },
+  {
+    "source": "https://2019.jsconf.eu/henri-helvetica/shape-of-the-web.html",
+    "img": "https://2019.jsconf.eu/immutable/8ac791a0e73d7baeb4ec023334a1f5f09b0b2c45/images/cms/henri-helvetica-3bc7a2ec-1000-square.jpg",
+    "speaker": "Henri Helvetica",
+    "title": "Shape Of The Web",
+    "event": "JS Conf 2019",
+    "slug": "shape-of-the-web",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Henri Helvetica"
+    ],
+    "description": "Until 1992, the web was largely textual, reserved almost exclusively to academia, with the charm of searching for library books via card catalogs. The sea change came when a browser allowed for both text and images to now be displayed in the viewport. Despite some vehement opposition, this was described as the \"gateway to the riches of the internet\". This was a technological advancement that some had wagered would further fuel more advacement. We now have seen technologies like APIs, PWAs, DevTools and many more. “The Shape Of The Web” is about both accomplishments and challenges that lay in past, present and future of the web - from its technologies employed and its employed technologists.",
+    "yt_url": "https://youtu.be/SeV_Pqw5egU",
+    "posting_date": "2021-06-06"
+  },
+  {
+    "source": "https://2019.jsconf.eu/chidinma-kalu/why-cant-we-all-just-get-along.html",
+    "img": "https://2019.jsconf.eu/immutable/7f211f7cb98e80bbfb0c3bb9517c3683e7faa8f9/images/cms/chidinma-kalu-acc1148d-1000-square.jpg",
+    "speaker": "Chidinma Kalu",
+    "title": "Why Can’t We All Just Get Along?",
+    "event": "JS Conf 2019",
+    "slug": "why-cant-we-all-just-get-along",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Chidinma Kalu"
+    ],
+    "description": "There’s a divisive movement around the world which has arguable impacted the software development community. How can we remain open-minded and respectful when talking about different programming paradigms or languages? In this talk, I will be talking about empathy, how we can have divergent views and still have meaningful conversations.",
+    "yt_url": "https://youtu.be/7-C0KGA7xb4",
+    "posting_date": "2021-06-10"
+  },
+  {
+    "source": "https://2019.jsconf.eu/havi-hoffman/in-the-land-of-the-javascripters.html",
+    "img": "https://2019.jsconf.eu/immutable/1efdae40580c2a14499b6213eb27b2cec3163736/images/cms/havi-hoffman-9902358e-1000-square.jpg",
+    "speaker": "Havi Hoffman",
+    "title": "In the land of the JavaScripters",
+    "event": "JS Conf 2019",
+    "slug": "in-the-land-of-the-javascripters",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Havi Hoffman"
+    ],
+    "description": "In 2009 I was managing Yahoo’s tech event budget when we agreed to sponsor the very first JSConf, the one that almost didn’t happen, the one that started something… And though I’ve still never attended a JSConf, nor learned to code, the zeitgeist of the JavaScript community and its event culture have had a profound effect on how I live and the devrel work I do. I’d like to speak about cultivating “JavaScript: The Good Times”—the evolution of inclusiveness, the effort to replace customs that no longer reflect the values and demographics of the community, the focus on new practices for joyful conference-going and knowledge sharing. The JavaScript ethos has fueled a reinvention of the tech gathering as an act of participation and experiment, generating enduring artifacts for learning and excellent new habits for our relationships - personal and professional.",
+    "yt_url": "https://youtu.be/1gL8u0gmWdg",
+    "posting_date": "2021-06-14"
+  },
+  {
+    "source": "https://2019.jsconf.eu/aditya-mukerjee/translating-code-to-other-human-languages-and-back-again.html",
+    "img": "https://2019.jsconf.eu/immutable/0464bfe9c9b560123e455ebbc7cafb21480133cb/images/cms/aditya-mukerjee-79e7fbd2-1000-square.jpg",
+    "speaker": "Aditya Mukerjee",
+    "title": "করো: Translating Code to Other (Human) Languages, and Back Again",
+    "event": "JS Conf 2019",
+    "slug": "translating-code-to-other-human-languages-and-back-again",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Aditya Mukerjee"
+    ],
+    "description": "Javascript runs on nearly any platform. Most languages can compile to Javascript. It’s well-positioned to become the lingua franca of programmers, with one problem: Like most programming languages, Javascript is based on English. 89% of the world’s population doesn’t speak any English. Many of those people can’t even read the Latin script. If we want Javascript to be a lingua franca, we need to ensure it is accessible to all people, regardless of their native language. Let’s look at the barriers that non-native speakers face when contributing to OSS Javascript projects and what it would take to remove them entirely, so that two developers could collaborate without speaking the same language. We will see what techniques Javascript can borrow from other languages by taking a look at করো (koro), a project which adds Bengali support to the Go compiler. And, we will learn enough about compilers and character encoding to answer the eternal question: “Could we do this in Javascript?”",
+    "yt_url": "https://youtu.be/-0WQCs2JsFY",
+    "posting_date": "2021-06-18"
+  },
+  {
+    "source": "https://2019.jsconf.eu/jessica-jordan/crafting-comics-for-literally-everyone.html",
+    "img": "https://2019.jsconf.eu/immutable/16cfdad2b98d9b9e077631bd5be0920cc53d3c38/images/cms/jessica-jordan-0c8793eb-1000-square.jpg",
+    "speaker": "Jessica Jordan",
+    "title": "Crafting Comics for Literally Everyone",
+    "event": "JS Conf 2019",
+    "slug": "crafting-comics-for-literally-everyone",
+    "tags": [
+      "Open source",
+      "Javascript",
+      "JS Conf EU 2019",
+      "Jessica Jordan"
+    ],
+    "description": "Remember loving to read comics on a Sunday afternoon when you were a kid? Maybe you don’t. In the past, traditional print comics have made it impossible for blind and visually-impaired readers to experience their heroes’ adventures first-hand. Today an increasing number of initiatives like comic book stores for the blind aim to overcome this challenge. What if I told you that the web platform empowers us to even create comics for literally everyone? Alongside a demo application, you see how accessibility best practices enable you to craft an immersive webcomic experience that is not only engaging for the sighted but accessible for everyone.",
+    "yt_url": "https://youtu.be/BPmuR4mAQaw",
+    "posting_date": "2021-06-22"
   }
 ]
