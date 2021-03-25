@@ -40,15 +40,21 @@ jobs:
               template,
               readme
             )
-            fs.writeFileSync(
-              `content/posts/${episodeName}.md`,
-              output
-            );
-            fs.writeFileSync(`README.md`, newReadme);
-            fs.writeFileSync(
-              `episodes.json`,
-              JSON.stringify(newEpisodes, null, 2)
-            );
+            if (output) {
+              fs.writeFileSync(
+                `content/posts/${episodeName}.md`,
+                output
+              );
+            }
+            if (newReadme) {
+              fs.writeFileSync(`README.md`, newReadme);
+            }
+            if (newEpisodes) {
+              fs.writeFileSync(
+                `episodes.json`,
+                JSON.stringify(newEpisodes, null, 2)
+              );
+            }
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:

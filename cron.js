@@ -14,6 +14,10 @@ const job = async (token, episodes, b2AppKeyId, b2AppKey, template, readme) => {
   let episode = episodes.find((e) => {
     return new Date(e.posting_date) < new Date() && !e.podcast_url;
   });
+  if (!episode) {
+    console.log("No episodes to add!")
+    return {}
+  }
   const ytStream = ytdl(episode.yt_url, {
     quality: "highestaudio",
     filter: "audioonly",
