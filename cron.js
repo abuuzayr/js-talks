@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const fs = require('fs')
 const ytdl = require('ytdl-core')
 const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path
