@@ -34,7 +34,10 @@
     ],
     "description": "Augmented reality is already making its way into everyday browsers! This talk will dive into what that might mean for the traditional web developer, and why developing immersive experiences makes so much sense on the web, even in the face of native alternatives. We will cover topics like off-the-shelf web technologies, performance, and privacy all in the context of augmented reality.",
     "yt_url": "https://youtu.be/Jk4tEMBJleE",
-    "posting_date": "2021-03-26"
+    "posting_date": "2021-03-26",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/the-case-for-augmented-reality-on-the-web.mp3",
+    "podcast_duration": "21:55.800000000000004",
+    "podcast_size": "17753010"
   },
   {
     "source": "https://2019.jsconf.eu/sher-minn-chong/recreating-retro-computer-art-with-js.html",
