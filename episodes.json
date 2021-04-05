@@ -74,7 +74,10 @@
     ],
     "description": "Node.js has been using a derivative of nginx’s parser with a lot of customization/rewrite since its inception. Despite being fast enough, the project architecture made it very hard to maintain in a long run. To mitigate that, the author has created a tool to generate the new HTTP parser called “llhttp” from the TypeScript code in understandable, verifiable, and maintainable way. Incidentally, the performance of “llhttp” is two times better than of the old parser. In this talk we’ll walk through the basics of generating such parsers and how “llhttp” works.",
     "yt_url": "https://youtu.be/x3k_5Mi66sY",
-    "posting_date": "2021-04-03"
+    "posting_date": "2021-04-03",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/llhttp-new-http-11-parser-for-nodejs.mp3",
+    "podcast_duration": "23:58.199999999999996",
+    "podcast_size": "20640104"
   },
   {
     "source": "https://2019.jsconf.eu/meya-stephen-kenigbolo/javascript-is-for-everyone.html",
