@@ -94,7 +94,10 @@
     ],
     "description": "Teaching absolute beginners with no technical experience whatsoever to understand Javascript can be quite a daunting task. It’s more challenging if you have a thick British accent and your students are mostly African students. If you’ve ever designed a tech curriculum then you understand how complicated this can be. At code Afrique where we help the community by offering a free weekend intensive bootcamp, we explored and have now achieved success with ember where we had earlier failed. The aim of this talk is to show, what we tried, where we failed and how Javascript via Ember brought us success like no other.",
     "yt_url": "https://youtu.be/4WuZozUZuHM",
-    "posting_date": "2021-04-07"
+    "posting_date": "2021-04-07",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/javascript-is-for-everyone.mp3",
+    "podcast_duration": "22:33",
+    "podcast_size": "18664303"
   },
   {
     "source": "https://2019.jsconf.eu/houssein-djirdeh/performance-empathy.html",
