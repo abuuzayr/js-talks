@@ -91,3 +91,4 @@ I do not earn anything from this project. If you would like to support this proj
 | Recreating Retro Computer Art with JS! | Sher Minn Chong | [:arrow_forward:](https://youtu.be/nC5q5JxLjnY) | [:arrow_right:](https://js-talks.netlify.app/posts/recreating-retro-computer-art-with-js) | :white_check_mark: |
 | llhttp - new HTTP 1.1 parser for Node.js | Fedor Indutny | [:arrow_forward:](https://youtu.be/x3k_5Mi66sY) | [:arrow_right:](https://js-talks.netlify.app/posts/llhttp-new-http-11-parser-for-nodejs) | :white_check_mark: |
 | Javascript is for Everyone! | Meya Stephen Kenigbolo | [:arrow_forward:](https://youtu.be/4WuZozUZuHM) | [:arrow_right:](https://js-talks.netlify.app/posts/javascript-is-for-everyone) | :white_check_mark: |
+| Performance Empathy | Houssein Djirdeh | [:arrow_forward:](https://youtu.be/uIBYN6w9cBc) | [:arrow_right:](https://js-talks.netlify.app/posts/performance-empathy) | :white_check_mark: |
