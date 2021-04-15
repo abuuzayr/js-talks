@@ -134,7 +134,10 @@
     ],
     "description": "Travelling to JSConf EU from another country? You probably had to pay an arm and a leg for a data roaming package on your phone. But there’s a better way! What if I told you that you could stay connected to the internet with a phone that can only send and receive text messages? In this talk we’ll build our own browser that makes all requests over SMS, so that next time you can forget about that fancy data package.",
     "yt_url": "https://youtu.be/ZsBAkSxwU5c",
-    "posting_date": "2021-04-15"
+    "posting_date": "2021-04-15",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/bringing-back-dial-up-the-internet-over-sms.mp3",
+    "podcast_duration": "20:49.8",
+    "podcast_size": "17639225"
   },
   {
     "source": "https://2019.jsconf.eu/nat-alison/polyhedra-i-choose-you-letting-your-passions-take-form.html",
