@@ -154,7 +154,10 @@
     ],
     "description": "For millennia, mathematicians and artists have been fascinated by polyhedra, 3D shapes that encode complex symmetries and relationships. My name is [anonymized], and for the last ten years I have dedicated my life to sharing the beauty of these shapes with the world. Join me on an epic quest filled with ancient 3D libraries, arcane mathematical data structures, and Pokémon GIFs as I strive to make my vision a reality the only way I know how: an interactive web app. Come and twist, expand, and gyroelongate polyhedra with me, and let my journey inspire you to use the web to make your own passions come to life.",
     "yt_url": "https://youtu.be/jhdJHBD9Fts",
-    "posting_date": "2021-04-19"
+    "posting_date": "2021-04-19",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/polyhedra-i-choose-you-letting-your-passions-take-form.mp3",
+    "podcast_duration": "21:51",
+    "podcast_size": "17181677"
   },
   {
     "source": "https://2019.jsconf.eu/pier-paolo-fumagalli/tales-from-the-toilet-how-javascript-helps-the-production-of-tissue-papers.html",

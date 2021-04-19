@@ -93,3 +93,4 @@ I do not earn anything from this project. If you would like to support this proj
 | Javascript is for Everyone! | Meya Stephen Kenigbolo | [:arrow_forward:](https://youtu.be/4WuZozUZuHM) | [:arrow_right:](https://js-talks.netlify.app/posts/javascript-is-for-everyone) | :white_check_mark: |
 | Performance Empathy | Houssein Djirdeh | [:arrow_forward:](https://youtu.be/uIBYN6w9cBc) | [:arrow_right:](https://js-talks.netlify.app/posts/performance-empathy) | :white_check_mark: |
 | Bringing back dial-up: the internet over SMS | Alexandra Sunderland | [:arrow_forward:](https://youtu.be/ZsBAkSxwU5c) | [:arrow_right:](https://js-talks.netlify.app/posts/bringing-back-dial-up-the-internet-over-sms) | :white_check_mark: |
+| Polyhedra, I Choose You! Letting Your Passions Take Form | Nat Alison | [:arrow_forward:](https://youtu.be/jhdJHBD9Fts) | [:arrow_right:](https://js-talks.netlify.app/posts/polyhedra-i-choose-you-letting-your-passions-take-form) | :white_check_mark: |
