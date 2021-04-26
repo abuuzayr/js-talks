@@ -174,7 +174,10 @@
     ],
     "description": "Producing tissue paper, kitchen rolls, folded napkins or toilet paper is not for the faint of heart. Gigantic machines rewind huge rolls of tissue paper weighing almost a ton processing it at a speed of 40 km/h, and a single minute of downtime cuts into the slim margins of the paper industry. The asynchronous nature of Javascript and Node.JS allows telemetry data to be harvested from ancient PLCs controlling the production, and its real-time analysis in the cloud, enabling operators and factories to raise production quality, improve performance and reduce waste. Join me on a journey to understand how modern programming techniques make IIoT and Industry 4.0 a reality today in the toilet paper world!",
     "yt_url": "https://youtu.be/G_56cutmrBc",
-    "posting_date": "2021-04-23"
+    "posting_date": "2021-04-23",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/tales-from-the-toilet-how-javascript-helps-the-production-of-tissue-papers.mp3",
+    "podcast_duration": "25:43.199999999999996",
+    "podcast_size": "20066891"
   },
   {
     "source": "https://2019.jsconf.eu/allison-mcmillan/bdd-baby-driven-development.html",
