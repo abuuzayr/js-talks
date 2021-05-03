@@ -214,7 +214,10 @@
     ],
     "description": "How WordPress built its own brand new visual editor experience from the ground up. The talk will include an introduction of WordPress and how the Gutenberg editor project started, details of how it works and how we incrementally improved the block editor over two years, and what our plans are for the future.",
     "yt_url": "https://youtu.be/ZNWNhUPrqB4",
-    "posting_date": "2021-05-01"
+    "posting_date": "2021-05-01",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/designing-a-rich-content-editor-for-a-third-of-the-web.mp3",
+    "podcast_duration": "19:15",
+    "podcast_size": "15529351"
   },
   {
     "source": "https://2019.jsconf.eu/johnny-austin/finding-your-abstraction-sweet-spot.html",
