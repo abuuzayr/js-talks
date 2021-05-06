@@ -234,7 +234,10 @@
     ],
     "description": "Many would argue there are only two hard problems in software: naming and cache invalidation. I’d argue there’s a third problem - abstractions. Whether you’re implementing an API for devs outside of your organization or creating a reusable library for devs on your team, creating the right level of abstraction is difficult. You have to balance flexibility with the ease-of-use. The correct choice is often a function of time constraints, compromise, and trial & error. I’ll talk about how to navigate these issues more efficiently.",
     "yt_url": "https://youtu.be/go5VCfJMJhw",
-    "posting_date": "2021-05-05"
+    "posting_date": "2021-05-05",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/finding-your-abstraction-sweet-spot.mp3",
+    "podcast_duration": "19:4.2",
+    "podcast_size": "16198334"
   },
   {
     "source": "https://2019.jsconf.eu/constanza-yanez-calderon/about-life-robots-and-cats.html",
