@@ -98,3 +98,4 @@ I do not earn anything from this project. If you would like to support this proj
 | BDD: Baby Driven Development | Allison McMillan | [:arrow_forward:](https://youtu.be/EndmLEaKPw8) | [:arrow_right:](https://js-talks.netlify.app/posts/bdd-baby-driven-development) | :white_check_mark: |
 | Designing a Rich Content Editor for a Third of the Web | Ella van Durpe | [:arrow_forward:](https://youtu.be/ZNWNhUPrqB4) | [:arrow_right:](https://js-talks.netlify.app/posts/designing-a-rich-content-editor-for-a-third-of-the-web) | :white_check_mark: |
 | Finding Your Abstraction Sweet Spot | Johnny Austin | [:arrow_forward:](https://youtu.be/go5VCfJMJhw) | [:arrow_right:](https://js-talks.netlify.app/posts/finding-your-abstraction-sweet-spot) | :white_check_mark: |
+| About life, robots and cats! | Constanza Yáñez Calderón | [:arrow_forward:](https://youtu.be/GJ7zLofY1V8) | [:arrow_right:](https://js-talks.netlify.app/posts/about-life-robots-and-cats) | :white_check_mark: |
