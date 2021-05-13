@@ -274,7 +274,10 @@
     ],
     "description": "Accessibility on the web for all groups including the visually and motor impaired is an important issue. But many of the usability lessons we explore on our products today are actually centuries old. Let’s explore how these concepts are manifested in coats of arms throughout history. Come learn about what we can learn from the designers of medieval crests.",
     "yt_url": "https://youtu.be/jVfVsKXdYK0",
-    "posting_date": "2021-05-13"
+    "posting_date": "2021-05-13",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/what-js-developers-can-learn-from-medieval-coats-of-arms-about-accessibility.mp3",
+    "podcast_duration": "22:1.2",
+    "podcast_size": "17671214"
   },
   {
     "source": "https://2019.jsconf.eu/ziran-sun/build-an-end-to-end-iot-system-using-javascript-with-gdpr-awareness.html",
