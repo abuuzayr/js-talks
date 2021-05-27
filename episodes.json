@@ -334,7 +334,10 @@
     ],
     "description": "“Queers hate techies,” the slogan proudly proclaimed in a window in San Francisco. Being a queer techie, I was immediately conflicted. The tech industry provides a safe haven for many queer folks, myself included. It offers stable employement to us more willingly than other industries. These benefits don’t extend to all queer folks though, and these benefits are often revoked as soon as we step out of line. Queer folks are a model minority in an industry who’s products often negatively impact our community. This talk will dive into these complications and how we can improve the tech industry to make it a truly welcoming place for queer folks.",
     "yt_url": "https://youtu.be/fSN3LVbXTkg",
-    "posting_date": "2021-05-25"
+    "posting_date": "2021-05-25",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/the-contentious-relationship-between-the-lgbtq-community-and-tech.mp3",
+    "podcast_duration": "26:12",
+    "podcast_size": "20251163"
   },
   {
     "source": "https://2019.jsconf.eu/roshan-gautam/you-should-start-a-tech-community-too.html",
