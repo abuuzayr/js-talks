@@ -374,7 +374,10 @@
     ],
     "description": "Not long ago, it seemed like JavaScript devices were going to free JS developers from the constraints of the browser and let us control every aspect of our lives as easily as we once controlled hover menus. Though nodebots were captivating, many of us were anxious for the JS device revolution to reach a more mundane destination: our phones. And yet today the constraints of the mobile landscape look not much different from several years ago. We have the same two operating systems, the same two app stores, and same option to write a native app or push people to save what is still mostly a bookmark. How did we cover so little distance, given the enthusiasm, resources, and potential that appeared to exist, and more importantly, how close can we come to a JavaScript phone today?",
     "yt_url": "https://youtu.be/14wIbWGyaKg",
-    "posting_date": "2021-06-02"
+    "posting_date": "2021-06-02",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/what-happened-to-my-javascript-phone.mp3",
+    "podcast_duration": "24:0",
+    "podcast_size": "18999340"
   },
   {
     "source": "https://2019.jsconf.eu/henri-helvetica/shape-of-the-web.html",
