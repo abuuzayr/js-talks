@@ -106,3 +106,4 @@ I do not earn anything from this project. If you would like to support this proj
 | You should start a tech community too. | Roshan Gautam | [:arrow_forward:](https://youtu.be/xZrfXATxJ38) | [:arrow_right:](https://js-talks.netlify.app/posts/you-should-start-a-tech-community-too) | :white_check_mark: |
 | What happened to my JavaScript phone? | Garann Means | [:arrow_forward:](https://youtu.be/14wIbWGyaKg) | [:arrow_right:](https://js-talks.netlify.app/posts/what-happened-to-my-javascript-phone) | :white_check_mark: |
 | Shape Of The Web | Henri Helvetica | [:arrow_forward:](https://youtu.be/SeV_Pqw5egU) | [:arrow_right:](https://js-talks.netlify.app/posts/shape-of-the-web) | :white_check_mark: |
+| Why Can’t We All Just Get Along? | Chidinma Kalu | [:arrow_forward:](https://youtu.be/7-C0KGA7xb4) | [:arrow_right:](https://js-talks.netlify.app/posts/why-cant-we-all-just-get-along) | :white_check_mark: |

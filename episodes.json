@@ -414,7 +414,10 @@
     ],
     "description": "There’s a divisive movement around the world which has arguable impacted the software development community. How can we remain open-minded and respectful when talking about different programming paradigms or languages? In this talk, I will be talking about empathy, how we can have divergent views and still have meaningful conversations.",
     "yt_url": "https://youtu.be/7-C0KGA7xb4",
-    "posting_date": "2021-06-10"
+    "posting_date": "2021-06-10",
+    "podcast_url": "https://js-talks.builtforfifty.workers.dev/why-cant-we-all-just-get-along.mp3",
+    "podcast_duration": "12:21",
+    "podcast_size": "9497481"
   },
   {
     "source": "https://2019.jsconf.eu/havi-hoffman/in-the-land-of-the-javascripters.html",
